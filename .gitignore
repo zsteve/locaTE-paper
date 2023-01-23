@@ -1,3 +1,7 @@
+# Data
+data/simulated/Synthetic_1000/dyn-*
+data/simulated/Synthetic_1000/*.out
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

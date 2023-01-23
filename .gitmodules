@@ -1,3 +1,9 @@
 [submodule "data/simulated/BoolODE"]
 	path = data/simulated/BoolODE
 	url = https://github.com/zsteve/BoolODE
+[submodule "tools/PBA"]
+	path = tools/PBA
+	url = https://github.com/AllonKleinLab/PBA
+[submodule "tools/pba"]
+	path = tools/pba
+	url = https://github.com/zsteve/pba

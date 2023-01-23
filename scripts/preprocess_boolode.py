@@ -19,7 +19,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('dir', type=str)
 parser.add_argument('--nbranches', type=int, default = 0)
 # point to PBA directory (https://github.com/AllonKleinLab/PBA) 
-parser.add_argument('--pbadir', type=str, default="../tools/PBA") 
+parser.add_argument('--pbadir', type=str, default="/data/gpfs/projects/punim0638/stephenz/locaTE-paper/tools/pba/") 
 parser.add_argument('--nneighbors', type=int, default=25) 
 args = parser.parse_args()
 
@@ -119,9 +119,11 @@ with open(args.dir + '/pba/edges.csv', 'w+') as f:
     G_pba = G_pruned # nx.from_numpy_matrix(np.array(adata.obsp["distances"].todense()))
     f.write('\n'.join('%d,%d' % x for x in G_pba.edges))
 np.save(args.dir + "/pba/R.npy", R)
-# to run PBA, need to use a python2.7 virtualenv
-os.system("cd %s/pba && source /home/stephenz/py27_env/bin/activate && pwd && \
-            python PBA_pipeline.py -e edges.csv -R R.npy -D 1.0 && cp P.npy ../P_pba.npy" % args.dir)
+# to run PBA, need to use a python2.7 conda env
+# os.system("cd %s/pba && conda activate py27 && pwd && \
+#             python PBA_pipeline.py -e edges.csv -R R.npy -D 1.0 && cp P.npy ../P_pba.npy" % args.dir)
+os.system("cd %s/pba && \
+            conda run -n py27 python PBA_pipeline.py -e edges.csv -R R.npy -D 1.0 && cp P.npy ../P_pba.npy" % args.dir)
 
 # plot transition matrices
 try:
