@@ -7,3 +7,6 @@
 [submodule "tools/pba"]
 	path = tools/pba
 	url = https://github.com/zsteve/pba
+[submodule "tools/locaTE.jl"]
+	path = tools/locaTE.jl
+	url = https://github.com/zsteve/locaTE.jl

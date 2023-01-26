@@ -1,0 +1,6 @@
+Transition matrix dpt
+[ Info: Loading files
+[ Info: Constructing neighbourhood kernel
+[ Info: Directed inference
+[ Info: Computing RDI scores
+Progress:   0%|▏                                        |  ETA: 1:31:49[KProgress:   0%|▏                                        |  ETA: 1:08:18[KProgress:   0%|▏                                        |  ETA: 0:54:51[KProgress:   0%|▎                                        |  ETA: 0:48:49[KProgress:   1%|▎                                        |  ETA: 0:45:04[Kslurmstepd: error: *** JOB 43724061 ON spartan-bm076 CANCELLED AT 2023-01-23T14:51:09 ***

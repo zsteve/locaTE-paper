@@ -1,0 +1,12 @@
+dpt.npy filter=lfs diff=lfs merge=lfs -text
+X.npy filter=lfs diff=lfs merge=lfs -text
+X_pca.npy filter=lfs diff=lfs merge=lfs -text
+P_statot.npy filter=lfs diff=lfs merge=lfs -text
+R.npy filter=lfs diff=lfs merge=lfs -text
+X_umap.npy filter=lfs diff=lfs merge=lfs -text
+C.npy filter=lfs diff=lfs merge=lfs -text
+genes.npy filter=lfs diff=lfs merge=lfs -text
+J_ESCAPE.npy filter=lfs diff=lfs merge=lfs -text
+J.npy filter=lfs diff=lfs merge=lfs -text
+P_dpt.npy filter=lfs diff=lfs merge=lfs -text
+*.h5ad filter=lfs diff=lfs merge=lfs -text

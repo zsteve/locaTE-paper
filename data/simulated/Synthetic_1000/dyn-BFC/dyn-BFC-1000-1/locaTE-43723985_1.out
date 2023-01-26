@@ -1,0 +1,7 @@
+mkdir: cannot create directory ‘/home/stephenz/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFC/dyn-BFC-1000-1/locate_output_3_25_0.001’: File exists
+Transition matrix dpt
+[ Info: Loading files
+[ Info: Constructing neighbourhood kernel
+[ Info: Directed inference
+[ Info: Computing RDI scores
+Progress:   0%|▏                                        |  ETA: 1:34:05[KProgress:   0%|▏                                        |  ETA: 1:09:38[KProgress:   0%|▏                                        |  ETA: 1:05:59[KProgress:   0%|▎                                        |  ETA: 0:58:15[KProgress:   1%|▎                                        |  ETA: 0:57:09[KProgress:   1%|▎                                        |  ETA: 0:55:58[KProgress:   1%|▍                                        |  ETA: 0:55:54[KProgress:   1%|▍                                        |  ETA: 0:51:30[Kslurmstepd: error: *** JOB 43723985 ON spartan-bm074 CANCELLED AT 2023-01-23T14:51:09 ***
