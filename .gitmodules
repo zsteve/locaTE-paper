@@ -10,3 +10,18 @@
 [submodule "tools/locaTE.jl"]
 	path = tools/locaTE.jl
 	url = https://github.com/zsteve/locaTE.jl
+[submodule "tools/CeSpGRN"]
+	path = tools/CeSpGRN
+	url = https://github.com/PeterZZQ/CeSpGRN
+[submodule "tools/TENET"]
+	path = tools/TENET
+	url = https://github.com/neocaleb/TENET/
+[submodule "tools/SCODE"]
+	path = tools/SCODE
+	url = https://github.com/hmatsu1226/SCODE
+[submodule "tools/GRISLI"]
+	path = tools/GRISLI
+	url = https://github.com/PCAubin/GRISLI
+[submodule "tools/Scribe-py"]
+	path = tools/Scribe-py
+	url = https://github.com/aristoteleo/Scribe-py

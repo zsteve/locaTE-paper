@@ -1,5 +1,6 @@
 using Pkg
-Pkg.activate("/data/gpfs/projects/punim0638/stephenz/sc-causal-grn/manuscript/data_simulation/notebooks/pidc_env")
+Pkg.activate("pidc_env")
+Pkg.add(["NetworkInference", "DataFrames", "CSV", "NPZ", "StatsBase", "LinearAlgebra", "NNlib"])
 using NetworkInference
 using DataFrames
 using CSV
@@ -11,12 +12,12 @@ using NNlib
 idx = Colon()
 X = npzread("X.npy")[:, idx]
 try
-    global genes = Array(CSV.read("genes.txt", DataFrame)[:, 2])[idx];
+    global genes = CSV.read("genes.txt", Array)[:, 2][idx];
 catch e
     global genes = ["gene_$i" for i = 1:size(X, 2)];
 end
-# df = DataFrame(X', :auto)
-df = DataFrame(X')
+df = DataFrame(X', :auto)
+# df = DataFrame(X')
 insertcols!(df, 1, :gene => genes)
 CSV.write("X.csv", df, delim = "\t")
 

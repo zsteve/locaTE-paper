@@ -22,4 +22,4 @@ suffix=$k"_"$bandwidth"_"$lamda
 
 source /home/stephenz/.bash_profile && conda activate py37
 mkdir $datapath/cespgrn_output"_"$suffix
-python $srcpath/cespgrn.py --cespgrnpath /home/stephenz/stephenz/locaTE-paper/misc/CeSpGRN/src --X $datapath/X.npy --X_pca $datapath/X_pca.npy --k $k --bandwidth $bandwidth --lamda $lamda --outdir $datapath/cespgrn_output"_"$suffix/
+python $srcpath/infer_cespgrn.py --cespgrnpath /home/stephenz/stephenz/locaTE-paper/tools/CeSpGRN/src --X $datapath/X.npy --X_pca $datapath/X_pca.npy --k $k --bandwidth $bandwidth --lamda $lamda --outdir $datapath/cespgrn_output"_"$suffix/

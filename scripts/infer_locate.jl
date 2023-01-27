@@ -78,13 +78,9 @@ for (i, j) in enumerate(idxs)
 end
 L = sparse(normalized_laplacian(max.(A, A'), Float64));
 
-mi_all = zeros(size(X, 1), size(X, 2)^2);
-p = Progress(size(X, 1))
-
 P = npzread(args["P"])
 P_sp = sparse(P^args["k"])
-π_unif = fill(1/size(P, 1), size(P, 1))'
-Q = (P' .* π_unif)./(π_unif * P)';
+Q = to_backward_kernel(P);
 QT_sp = sparse((Q^args["k"])')
 # directed inference
 @info "Directed inference"
@@ -92,19 +88,15 @@ QT_sp = sparse((Q^args["k"])')
 alg = DiscretizeBayesianBlocks()
 disc = locaTE.discretizations_bulk(X; alg = alg)
 
-for i = 1:size(X, 1)
-	mi_all[i, :] = get_MI(X, compute_coupling(X, i, P_sp, QT_sp, R_sp), gene_idxs[:, 1], gene_idxs[:, 2]; disc = disc, alg = alg)
-	next!(p)
-end
-
-w = vec(maximum(mi_all; dims = 2))
+TE = estimate_TE(X, 1:size(X, 2), 1:size(X, 2), P_sp, QT_sp, R_sp)
+w = vec(maximum(TE; dims = 2))
 w ./= mean(w)
 @info "Applying CLR"
-mi_all_clr = apply_wclr(mi_all, size(X, 2))
-mi_all_clr[isnan.(mi_all_clr)] .= 0
+TE_clr = apply_wclr(TE, size(X, 2))
+TE_clr[isnan.(TE_clr)] .= 0
 @info "Denoising"
-G = fitsp(mi_all_clr, L; λ1 = args["lambda1"], λ2 = args["lambda2"], maxiter = Nq)
+G = fitsp(TE_clr, L; λ1 = args["lambda1"], λ2 = args["lambda2"], maxiter = Nq)
 
 npzwrite(string(args["outdir"], "G_$(args["suffix"]).npy"), G)
-npzwrite(string(args["outdir"], "mi_$(args["suffix"]).npy"), mi_all)
-npzwrite(string(args["outdir"], "mi_clr_$(args["suffix"]).npy"), mi_all_clr)
+npzwrite(string(args["outdir"], "TE_$(args["suffix"]).npy"), TE)
+npzwrite(string(args["outdir"], "TE_clr_$(args["suffix"]).npy"), TE_clr)

@@ -1,15 +1,15 @@
 #!/bin/bash
 #SBATCH --job-name="locaTE"
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=4G
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=1G
 #SBATCH --partition=mig
-#SBATCH --time=0-00:30:00
+#SBATCH --time=0-02:00:00
 #SBATCH --array=1-1
 #SBATCH --output=%x-%A_%a.out
 
 srcpath="/home/stephenz/stephenz/locaTE-paper/scripts"
-datapath=/home/stephenz/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-LI/dyn-LI-1000-2
+datapath=/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-LI/dyn-LI-1000-2
 
 parameters=`sed -n "${SLURM_ARRAY_TASK_ID} p" $datapath/params`
 parameterArray=($parameters)
@@ -25,6 +25,6 @@ mkdir $datapath/locate_output"_"$suffix
 for i in $(ls -d "$datapath/P_"*".npy"); do
 	ptype=$(echo $i | awk -F'P_' '{ print $2 }' | cut -d'.' -f 1)
 	echo Transition matrix $ptype
-	$JULIA $srcpath/infer_locate.jl --X $datapath/X.npy --X_pca $datapath/X_pca.npy --P $i --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix $ptype
+	JULIA_NUM_THREADS=4 $JULIA $srcpath/infer_locate.jl --X $datapath/X.npy --X_pca $datapath/X_pca.npy --P $i --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix $ptype
 done
 

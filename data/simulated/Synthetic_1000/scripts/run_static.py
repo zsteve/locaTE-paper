@@ -18,18 +18,20 @@ dpt = np.sort(dpt)
 is_bifurc = ("dpt_groups" in adata.obs.columns)
 
 DIR=os.getcwd()
+SCRIPT_DIR="/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/scripts/"
+TOOL_DIR="/data/gpfs/projects/punim0638/stephenz/locaTE-paper/tools/"
 if is_bifurc:
-	TENET_SCRIPT="/data/gpfs/projects/punim0638/stephenz/sc-causal-grn/manuscript/data_simulation/data/Synthetic_1000/run_tenet_bifurc.sh"
-	SCODE_SCRIPT="/data/gpfs/projects/punim0638/stephenz/sc-causal-grn/manuscript/data_simulation/data/Synthetic_1000/run_SCODE_bifurc.sh"
+	TENET_SCRIPT="%s/run_tenet_bifurc.sh" % SCRIPT_DIR
+	SCODE_SCRIPT="%s/run_SCODE_bifurc.sh" % SCRIPT_DIR
 else:
-	TENET_SCRIPT="/data/gpfs/projects/punim0638/stephenz/sc-causal-grn/manuscript/data_simulation/data/Synthetic_1000/run_tenet.sh"
-	SCODE_SCRIPT="/data/gpfs/projects/punim0638/stephenz/sc-causal-grn/manuscript/data_simulation/data/Synthetic_1000/run_SCODE.sh"
+	TENET_SCRIPT="%s/run_tenet.sh" % SCRIPT_DIR
+	SCODE_SCRIPT="%s/run_SCODE.sh" % SCRIPT_DIR
 
 # write for TENET
 DIR_COMPARISON = os.path.join(DIR, "tenet/")
 try:
 	os.mkdir(DIR_COMPARISON)
-	os.system("ln -s /home/stephenz/stephenz/TENET/* %s" % DIR_COMPARISON)
+	os.system("ln -s %s/TENET/* %s" % (TOOL_DIR, DIR_COMPARISON))
 except:
 	pass
 pd.DataFrame(adata.X).to_csv(DIR_COMPARISON + "X.csv")
@@ -42,7 +44,7 @@ else:
 	pd.DataFrame(np.ones(adata.shape[0], dtype = int)).to_csv(DIR_COMPARISON + "branch.csv", header = False, index = False)	
 
 # run TENET
-cmd="cd %s && ml load gcc/10.2.0 && ml load openmpi/4.1.1 && ml load java && bash %s" % (DIR_COMPARISON, TENET_SCRIPT)
+cmd="cd %s && ml load java && bash %s" % (DIR_COMPARISON, TENET_SCRIPT)
 os.system(cmd)
 
 # combine TENET

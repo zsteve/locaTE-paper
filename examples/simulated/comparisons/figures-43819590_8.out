@@ -1,0 +1,50 @@
+qt.qpa.xcb: could not connect to display localhost:10.0
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: linuxfb, minimal, offscreen, vnc, xcb.
+
+connect: Connection refused
+GKS: can't connect to GKS socket application
+
+GKS: Open failed in routine OPEN_WS
+GKS: GKS not in proper state. GKS must be either in the state WSOP or WSAC in routine ACTIVATE_WS
+qt.qpa.xcb: could not connect to display localhost:10.0
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: linuxfb, minimal, offscreen, vnc, xcb.
+
+connect: Connection refused
+GKS: can't connect to GKS socket application
+
+GKS: Open failed in routine OPEN_WS
+GKS: GKS not in proper state. GKS must be either in the state WSOP or WSAC in routine ACTIVATE_WS
+qt.qpa.xcb: could not connect to display localhost:10.0
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: linuxfb, minimal, offscreen, vnc, xcb.
+
+connect: Connection refused
+GKS: can't connect to GKS socket application
+
+GKS: Open failed in routine OPEN_WS
+GKS: GKS not in proper state. GKS must be either in the state WSOP or WSAC in routine ACTIVATE_WS
+  Activating project at `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/examples/simulated/comparisons`
+ERROR: LoadError: MethodError: no method matching maximum(::Vector{Any})
+You may have intended to import Base.maximum
+Closest candidates are:
+  maximum(!Matched::AbstractArray{T}) where T<:AbstractFloat at ~/.julia/packages/NaNMath/MNJRI/src/NaNMath.jl:128
+Stacktrace:
+ [1] iterate
+   @ ./generator.jl:47 [inlined]
+ [2] _collect
+   @ ./array.jl:807 [inlined]
+ [3] collect_similar(cont::Vector{Vector{Any}}, itr::Base.Generator{Vector{Vector{Any}}, typeof(NaNMath.maximum)})
+   @ Base ./array.jl:716
+ [4] map(f::Function, A::Vector{Vector{Any}})
+   @ Base ./abstractarray.jl:2933
+ [5] top-level scope
+   @ /data/gpfs/projects/punim0638/stephenz/locaTE-paper/examples/simulated/comparisons/analysis.jl:155
+in expression starting at /data/gpfs/projects/punim0638/stephenz/locaTE-paper/examples/simulated/comparisons/analysis.jl:155
