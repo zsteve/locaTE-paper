@@ -25,3 +25,9 @@
 [submodule "tools/Scribe-py"]
 	path = tools/Scribe-py
 	url = https://github.com/aristoteleo/Scribe-py
+[submodule "tools/velocity_notebooks"]
+	path = tools/velocity_notebooks
+	url = https://github.com/HaghverdiLab/velocity_notebooks/
+[submodule "tools/velocity_package"]
+	path = tools/velocity_package
+	url = https://github.com/HaghverdiLab/velocity_package
