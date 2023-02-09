@@ -32,11 +32,14 @@ def draw(g, gene_names, thresh = None, lst = None, cmap_dict = {0 : "MyGrey", 1 
         arrows = nx.draw_networkx_edges(g_sub, pos, 
                                         edgelist = edgelist_color, edge_color = weights[edge_idx_color], alpha = weights[edge_idx_color], 
                                         width = 2.5*weights[edge_idx_color], edge_cmap = matplotlib.colormaps[v], edge_vmin = -0.1, edge_vmax = 1.1, node_size = 600)
-        for a, w in zip(arrows, weights[edge_idx_color]):
-            # from https://stackoverflow.com/questions/67251763/how-to-obtain-non-rounded-arrows-on-fat-lines
-            a.set_mutation_scale(20 + w)
-            a.set_joinstyle('miter')
-            a.set_capstyle('butt')
+        try:
+            for a, w in zip(arrows, weights[edge_idx_color]):
+                # from https://stackoverflow.com/questions/67251763/how-to-obtain-non-rounded-arrows-on-fat-lines
+                a.set_mutation_scale(20 + w)
+                a.set_joinstyle('miter')
+                a.set_capstyle('butt')
+        except:
+            pass
     nodes, centrality = zip(*nx.get_node_attributes(g_sub,'centrality').items())
     centrality /= np.max(centrality)
     nx.draw_networkx_nodes(g, pos, nodelist = nodes, node_color = centrality, cmap = matplotlib.colormaps["viridis"], alpha = 0.5, node_size = 600)
