@@ -1,0 +1,4 @@
+Network,Annotation
+MyList,GO:0045646|regulation of erythrocyte differentiation|-14.2;GO:0045637|regulation of myeloid cell differentiation|-11.3;GO:1903706|regulation of hemopoiesis|-9.1
+MyList_MCODE_ALL,GO:0002573|myeloid leukocyte differentiation|-7.7;GO:0030099|myeloid cell differentiation|-6.6;GO:0002521|leukocyte differentiation|-5.9
+MyList_SUB1_MCODE_1,GO:0002573|myeloid leukocyte differentiation|-7.7;GO:0030099|myeloid cell differentiation|-6.6;GO:0002521|leukocyte differentiation|-5.9
