@@ -1,5 +1,0 @@
-Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value),GeneList
-TRRUST,34,TRR01470,Regulated by: Tfap2a,,-6.7,2.5e+02,27,20836,10,25,3,12,6.5,12606|15404|15405,Cebpa|Hoxa7|Hoxa9,-3.8,MyList
-TRRUST,34,TRR01494,Regulated by: Trp53,,-3,15,6.2,20836,172,25,3,12,6.5,12394|16598|21413,Runx1|Klf2|Tcf4,-0.28,MyList
-TRRUST,34,TRR00951,Regulated by: Nfkb1,,-2.7,12,5.5,20836,210,25,3,12,6.5,12606|16477|19696,Cebpa|Junb|Rel,-0.28,MyList
-PaGenBase,36,PGB:00223,Tissue-specific: lymph node,,-2.7,11,5.4,20836,219,25,3,12,6.5,15900|18987|407823,Irf8|Pou2f2|Baz2b,-0.28,MyList
