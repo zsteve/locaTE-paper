@@ -1,0 +1,7 @@
+Category,CategoryID,GO,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value),GeneList
+TRRUST,34,TRR01599,Regulated by: Zfp148,,-7.5,4.2e+02,35,20836,6,25,3,12,6.5,14460|20375|21349,Gata1|Spi1|Tal1,-4.5,MyList
+TRRUST,34,TRR00435,Regulated by: Gata1,,-6,1.5e+02,21,20836,17,25,3,12,6.5,18022|20375|21349,Nfe2|Spi1|Tal1,-3.3,MyList
+PaGenBase,36,PGB:00210,Cell-specific: mast cells,,-5,16,8.6,20836,253,25,5,20,8,14460|16477|18022|21349|22038,Gata1|Junb|Nfe2|Tal1|Plscr1,-2.5,MyList
+PaGenBase,36,PGB:00048,Tissue-specific: bone marrow,,-3.9,31,9.4,20836,80,25,3,12,6.5,14460|14582|21349,Gata1|Gfi1b|Tal1,-1.6,MyList
+PaGenBase,36,PGB:00011,Tissue-specific: spleen,,-2.8,13,5.9,20836,189,25,3,12,6.5,14582|18022|21349,Gfi1b|Nfe2|Tal1,-0.56,MyList
+TRRUST,34,TRR01347,Regulated by: Sp1,,-2.4,8.9,4.6,20836,280,25,3,12,6.5,12606|21349|23871,Cebpa|Tal1|Ets1,-0.16,MyList
