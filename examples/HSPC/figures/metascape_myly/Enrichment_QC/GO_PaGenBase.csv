@@ -1,2 +1,0 @@
-_MEMBER_MyList,_LogP_MyList,GO,_PATTERN_,_RANK_,GiniIndex,Category,CategoryID,Description,PARENT_GO,LogP,Enrichment,Z-score,#TotalGeneInLibrary,#GeneInGO,#GeneInHitList,#GeneInGOAndHitList,%InGO,STDV %InGO,GeneID,Hits,Log(q-value),EvidenceCutoff
-1,-2.7,PGB:00223,M1,1,0,PaGenBase,36,Tissue-specific: lymph node,,-2.7,11,5.4,20836,219,25,3,12,6.5,15900|18987|407823,Irf8|Pou2f2|Baz2b,-0.28,0
