@@ -22,15 +22,15 @@ function process_dataset(dir)
                 "J_symm_mat" => J_symm_mat)
 end
 
-function load_job_data(dir)
-    files = Dict("locaTE_velo_dot" => glob(string(dir, "/locate_output*")), 
-                "locaTE_velo_cos"  => glob(string(dir, "/locate_output*")), 
-                "locaTE_velo_corr" => glob(string(dir, "/locate_output*")),
-                "locaTE_dpt"       => glob(string(dir, "/locate_output*")),
-                "locaTE_statot"    => glob(string(dir, "/locate_output*")),
-                "locaTE_statot_ent"    => glob(string(dir, "/locate_output*")),
-                "locaTE_pba"       => glob(string(dir, "/locate_output*")),
-                 "cespgrn"        => glob(string(dir, "/cespgrn_output*")))
+function load_job_data(dir; locate_prefix = "locate", cespgrn_prefix = "cespgrn")
+    files = Dict("locaTE_velo_dot" => glob(string(dir, "/$(locate_prefix)_output*")), 
+                "locaTE_velo_cos"  => glob(string(dir, "/$(locate_prefix)_output*")), 
+                "locaTE_velo_corr" => glob(string(dir, "/$(locate_prefix)_output*")),
+                "locaTE_dpt"       => glob(string(dir, "/$(locate_prefix)_output*")),
+                "locaTE_statot"    => glob(string(dir, "/$(locate_prefix)_output*")),
+                "locaTE_statot_ent"    => glob(string(dir, "/$(locate_prefix)_output*")),
+                "locaTE_pba"       => glob(string(dir, "/$(locate_prefix)_output*")),
+                 "cespgrn"        => glob(string(dir, "/$(cespgrn_prefix)_output*")))
     params = Dict(k => map(x -> map(x -> parse(Float64, x), split(x, "_")[[end-2, end-1, end]]), v) for (k, v) in files)
     all_nans = fill(NaN, Nc, Ng*Ng)
     outputs = Dict( "locaTE_velo_dot"  => map(x -> try npzread(string(x, "/G_velo_dot.npy")) catch _ all_nans end, files["locaTE_velo_dot"]),
@@ -44,12 +44,17 @@ function load_job_data(dir)
     return Dict("files" => files, "params" => params, "outputs" => outputs)
 end
 
-function score_job_outputs(outputs, dataset)
+function score_job_outputs(outputs, dataset; what = :aupr, kwargs...)
     out = Dict()
     for k in keys(outputs)
         ksymm = string(k, "_symm")
-        out[k] = map(x -> aupr(collect(eachcol(prec_rec_rate(dataset["R"]*dataset["J_mat"], x, Nq)))...), outputs[k])
-        out[ksymm] = map(x -> aupr(collect(eachcol(prec_rec_rate(dataset["R"]*dataset["J_symm_mat"], locaTE.symm_row(x, Ng), Nq)))...), outputs[k])
+        if what == :aupr
+            out[k] = map(x -> aupr(collect(eachcol(prec_rec_rate(dataset["R"]*dataset["J_mat"], x, Nq)))...; kwargs...), outputs[k])
+            out[ksymm] = map(x -> aupr(collect(eachcol(prec_rec_rate(dataset["R"]*dataset["J_symm_mat"], locaTE.symm_row(x, Ng), Nq)))...; kwargs...), outputs[k])
+        elseif what == :ep
+            out[k] = map(x -> ep(collect(eachcol(prec_rec_rate(dataset["R"]*dataset["J_mat"], x, Nq)))...; kwargs...), outputs[k])
+            out[ksymm] = map(x -> ep(collect(eachcol(prec_rec_rate(dataset["R"]*dataset["J_symm_mat"], locaTE.symm_row(x, Ng), Nq)))...; kwargs...), outputs[k])
+        end
     end
     out
 end
@@ -94,10 +99,14 @@ function process_scode(path, J)
     G_scode, aupr(p, r)
 end
 
-function process_locate(G, J)
+function process_locate(G, J; what = :aupr, kwargs...)
     G_static = reshape(mean(G; dims = 1), size(J, 1), size(J, 2))
     p, r = collect(eachcol(prec_rec_rate(J, G_static, 512)))
-    G_static, aupr(p, r)
+    if what == :aupr
+        G_static, aupr(p, r)
+    elseif what == :ep
+        G_static, ep(p, r; kwargs...)
+    end
 end
 
 function process_scribe(path, J)
