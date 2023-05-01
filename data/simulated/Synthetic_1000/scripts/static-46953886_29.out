@@ -1,0 +1,759 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+cat: write error: Broken pipe
+2023-05-01 16:21:33.515400
+2023-05-01 16:21:33.727777
+
+real	0m1.268s
+user	0m1.037s
+sys	0m0.174s
+cat: write error: Broken pipe
+2023-05-01 16:21:39.979326
+2023-05-01 16:21:40.142005
+
+real	0m1.101s
+user	0m0.932s
+sys	0m0.150s
+cat: write error: Broken pipe
+2023-05-01 16:21:46.340583
+2023-05-01 16:21:46.441307
+
+real	0m0.993s
+user	0m0.836s
+sys	0m0.137s
+cat: write error: Broken pipe
+2023-05-01 16:21:52.648979
+2023-05-01 16:21:52.838594
+
+real	0m1.138s
+user	0m0.977s
+sys	0m0.140s
+cat: write error: Broken pipe
+2023-05-01 16:21:59.072057
+2023-05-01 16:21:59.272574
+
+real	0m1.136s
+user	0m0.971s
+sys	0m0.142s
+cat: write error: Broken pipe
+2023-05-01 16:22:05.534153
+2023-05-01 16:22:05.643411
+
+real	0m1.079s
+user	0m0.897s
+sys	0m0.162s
+cat: write error: Broken pipe
+2023-05-01 16:22:11.885591
+2023-05-01 16:22:12.135657
+
+real	0m1.227s
+user	0m1.055s
+sys	0m0.152s
+cat: write error: Broken pipe
+2023-05-01 16:22:18.383766
+2023-05-01 16:22:18.555748
+
+real	0m1.111s
+user	0m0.938s
+sys	0m0.135s
+cat: write error: Broken pipe
+2023-05-01 16:22:24.784364
+2023-05-01 16:22:24.925373
+
+real	0m1.107s
+user	0m0.934s
+sys	0m0.154s
+cat: write error: Broken pipe
+2023-05-01 16:22:31.234222
+2023-05-01 16:22:31.474139
+
+real	0m1.277s
+user	0m1.094s
+sys	0m0.163s
+cat: write error: Broken pipe
+2023-05-01 16:22:37.779200
+2023-05-01 16:22:38.016796
+
+real	0m1.243s
+user	0m1.083s
+sys	0m0.139s
+cat: write error: Broken pipe
+2023-05-01 16:22:44.381815
+2023-05-01 16:22:44.641553
+
+real	0m1.423s
+user	0m1.221s
+sys	0m0.152s
+cat: write error: Broken pipe
+2023-05-01 16:22:51.100616
+2023-05-01 16:22:51.832840
+
+real	0m2.492s
+user	0m2.231s
+sys	0m0.236s
+cat: write error: Broken pipe
+2023-05-01 16:22:58.903959
+2023-05-01 16:23:00.046967
+
+real	0m2.968s
+user	0m2.645s
+sys	0m0.299s
+cat: write error: Broken pipe
+2023-05-01 16:23:07.145436
+2023-05-01 16:23:08.794484
+
+real	0m3.739s
+user	0m3.314s
+sys	0m0.396s
+cat: write error: Broken pipe
+2023-05-01 16:23:16.212697
+2023-05-01 16:23:17.111715
+
+real	0m2.186s
+user	0m1.970s
+sys	0m0.192s
+cat: write error: Broken pipe
+2023-05-01 16:23:23.682674
+2023-05-01 16:23:24.521321
+
+real	0m2.204s
+user	0m1.976s
+sys	0m0.206s
+cat: write error: Broken pipe
+2023-05-01 16:23:31.061405
+2023-05-01 16:23:31.611145
+
+real	0m1.818s
+user	0m1.609s
+sys	0m0.187s
+cat: write error: Broken pipe
+2023-05-01 16:23:38.216360
+2023-05-01 16:23:40.183479
+
+real	0m4.708s
+user	0m4.363s
+sys	0m0.314s
+cat: write error: Broken pipe
+2023-05-01 16:23:48.191273
+2023-05-01 16:23:49.748338
+
+real	0m5.390s
+user	0m4.963s
+sys	0m0.397s
+cat: write error: Broken pipe
+2023-05-01 16:23:58.907230
+2023-05-01 16:23:59.018552
+
+real	0m1.099s
+user	0m0.928s
+sys	0m0.153s
+cat: write error: Broken pipe
+2023-05-01 16:24:05.277061
+2023-05-01 16:24:05.443903
+
+real	0m1.134s
+user	0m0.973s
+sys	0m0.140s
+cat: write error: Broken pipe
+2023-05-01 16:24:11.692474
+2023-05-01 16:24:11.780089
+
+real	0m1.022s
+user	0m0.856s
+sys	0m0.144s
+cat: write error: Broken pipe
+2023-05-01 16:24:17.959974
+2023-05-01 16:24:18.016071
+
+real	0m0.954s
+user	0m0.791s
+sys	0m0.143s
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+/data/gpfs/projects/punim0638/stephenz/miniconda3/lib/python3.10/site-packages/Scribe-0.0.0-py3.10.egg/Scribe/causal_network.py:18: UserWarning:  WARNING: No expression data argument given. if you intend to load the data from a file, call the method 'read_expression_file'.
+  if expression==None: warnings.warn(" WARNING: No expression data argument given. if you intend to load the data from a file, call the method 'read_expression_file'.")
+/data/gpfs/projects/punim0638/stephenz/miniconda3/lib/python3.10/site-packages/Scribe-0.0.0-py3.10.egg/Scribe/causal_network.py:298: FutureWarning: Could not cast to int64, falling back to object. This behavior is deprecated. In a future version, when a dtype is passed to 'DataFrame', either all columns will be cast to that dtype, or a TypeError will be raised
+  max_rdi_delay = pd.DataFrame({node_id: [np.nan for i in self.node_ids] for node_id in self.node_ids}, index=self.node_ids,
+Create causal_model successfully
+  Activating project at `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-9/pidc_env`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-9/pidc_env/Project.toml`
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-9/pidc_env/Manifest.toml`
+Getting nodes...
+Inferring network...

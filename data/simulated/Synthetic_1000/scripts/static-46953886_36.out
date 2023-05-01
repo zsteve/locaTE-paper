@@ -1,0 +1,127 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+2023-05-01 16:21:33.390763
+2023-05-01 16:21:33.691035
+2023-05-01 16:21:33.918676
+
+real	0m1.479s
+user	0m1.322s
+sys	0m0.137s
+2023-05-01 16:21:45.041706
+2023-05-01 16:21:45.237876
+2023-05-01 16:21:45.387215
+
+real	0m1.190s
+user	0m1.033s
+sys	0m0.137s
+2023-05-01 16:21:56.639037
+2023-05-01 16:21:56.869510
+2023-05-01 16:21:56.995660
+
+real	0m1.315s
+user	0m1.069s
+sys	0m0.215s
+2023-05-01 16:22:08.283749
+2023-05-01 16:22:08.464904
+2023-05-01 16:22:08.595029
+
+real	0m1.309s
+user	0m1.058s
+sys	0m0.230s
+2023-05-01 16:22:19.813481
+2023-05-01 16:22:20.114325
+2023-05-01 16:22:20.285873
+
+real	0m1.406s
+user	0m1.236s
+sys	0m0.149s
+2023-05-01 16:22:31.760877
+2023-05-01 16:22:32.352072
+2023-05-01 16:22:32.872984
+
+real	0m2.289s
+user	0m1.919s
+sys	0m0.295s
+2023-05-01 16:22:44.542420
+2023-05-01 16:22:46.380050
+2023-05-01 16:22:47.804096
+
+real	0m4.647s
+user	0m4.324s
+sys	0m0.291s
+2023-05-01 16:22:59.023202
+2023-05-01 16:22:59.187763
+2023-05-01 16:22:59.294470
+
+real	0m1.214s
+user	0m1.020s
+sys	0m0.165s
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: `CSV.read(input; kw...)` is deprecated in favor of `using DataFrames; CSV.read(input, DataFrame; kw...)
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+┌ Warning: `writeheader=false` is deprecated in favor of `header=false`
+│   caller = ip:0x0
+└ @ Core :-1
+a
+/data/gpfs/projects/punim0638/stephenz/miniconda3/lib/python3.10/site-packages/Scribe-0.0.0-py3.10.egg/Scribe/causal_network.py:18: UserWarning:  WARNING: No expression data argument given. if you intend to load the data from a file, call the method 'read_expression_file'.
+  if expression==None: warnings.warn(" WARNING: No expression data argument given. if you intend to load the data from a file, call the method 'read_expression_file'.")
+/data/gpfs/projects/punim0638/stephenz/miniconda3/lib/python3.10/site-packages/Scribe-0.0.0-py3.10.egg/Scribe/causal_network.py:298: FutureWarning: Could not cast to int64, falling back to object. This behavior is deprecated. In a future version, when a dtype is passed to 'DataFrame', either all columns will be cast to that dtype, or a TypeError will be raised
+  max_rdi_delay = pd.DataFrame({node_id: [np.nan for i in self.node_ids] for node_id in self.node_ids}, index=self.node_ids,
+Create causal_model successfully
+  Activating project at `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-CY/dyn-CY-1000-6/pidc_env`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-CY/dyn-CY-1000-6/pidc_env/Project.toml`
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-CY/dyn-CY-1000-6/pidc_env/Manifest.toml`
+Getting nodes...
+Inferring network...

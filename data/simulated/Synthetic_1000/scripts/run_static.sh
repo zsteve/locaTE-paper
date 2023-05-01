@@ -5,7 +5,7 @@
 #SBATCH --mem-per-cpu=2G
 #SBATCH --partition=mig
 #SBATCH --time=0-00:30:00
-#SBATCH --array=1-60
+#SBATCH --array=1-80
 #SBATCH --output=%x-%A_%a.out
 
 path=$(pwd)

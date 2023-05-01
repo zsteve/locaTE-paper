@@ -1,3 +1,5 @@
 [deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 EvalMetrics = "251d5f9e-10c1-4699-ba24-e0ad168fa3e4"
 MultivariateStats = "6f286f6a-111f-5878-ab1e-185364afe411"
+locaTE = "d47a2e43-82e6-47ba-a340-eddb77145d33"
