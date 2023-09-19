@@ -1,0 +1,16 @@
+gene,gene,gene
+Top2a,Vegfa,Matr3
+Aurkb,Kpna2,Ccnb1
+Kpna2,Ccnb1,Kif20a
+Ccne2,Kif20a,Vegfa
+Matr3,Gas2l3,Kpna2
+Kif20a,Hjurp,Cdc20
+Gas2l3,Top2a,Gas2l3
+Cdk1,Matr3,Top2a
+Ccnb1,Ckap2,Ckap2
+Cdc20,Aurkb,Cdk1
+Kif23,Tpx2,Tpx2
+Vegfa,Cdc20,Aurkb
+Ckap2,Cdk1,Kif23
+Hjurp,Kif23,Ccne2
+Tpx2,Ccne2,Hjurp
