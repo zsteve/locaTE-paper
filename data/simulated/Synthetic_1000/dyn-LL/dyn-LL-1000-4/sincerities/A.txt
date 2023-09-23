@@ -1,0 +1,325 @@
+SourceGENES,TargetGENES,Interaction,Edges
+g3,g18,1,activation/repression
+g3,g14,0.997035742655658,activation/repression
+g3,g15,0.982156503534346,activation/repression
+g3,g16,0.981847555660161,activation/repression
+g3,g17,0.652378215677198,activation/repression
+g3,g2,0.617969570568771,activation/repression
+g3,g1,0.550028316932041,activation/repression
+g3,g13,0.409273820903557,activation/repression
+g3,g4,0.37343598592941,activation/repression
+g2,g16,0.322020482778229,activation/repression
+g3,g5,0.321883181384615,activation/repression
+g2,g15,0.272814355646297,activation/repression
+g2,g18,0.249271943372136,activation/repression
+g2,g14,0.243434166824115,activation/repression
+g3,g8,0.214865666890397,activation/repression
+g3,g9,0.21425947610557,activation/repression
+g3,g10,0.210994067616554,activation/repression
+g3,g12,0.167419508341,activation/repression
+g2,g17,0.164229501134849,activation/repression
+g3,g6,0.163971774812766,activation/repression
+g3,g7,0.162376327092186,activation/repression
+g18,g13,0.155865179584933,activation/repression
+g18,g14,0.150155190446665,activation/repression
+g2,g6,0.149121827708148,activation/repression
+g2,g1,0.143922139451001,activation/repression
+g2,g7,0.121066836170856,activation/repression
+g4,g3,0.111997986351499,activation/repression
+g18,g12,0.108665565465802,activation/repression
+g2,g13,0.100479167257178,activation/repression
+g2,g4,0.0901541754901301,activation/repression
+g18,g11,0.0855405742988056,activation/repression
+g2,g5,0.0829645546069907,activation/repression
+g18,g16,0.07661009668971,activation/repression
+g2,g3,0.0749637382992802,activation/repression
+g4,g18,0.0746152047515915,activation/repression
+g1,g15,0.072902638310626,activation/repression
+g4,g2,0.0619304143667631,activation/repression
+g1,g7,0.0575418376453261,activation/repression
+g1,g5,0.0560545078637222,activation/repression
+g1,g6,0.0506541278412565,activation/repression
+g2,g8,0.0501829142351069,activation/repression
+g1,g8,0.0498516124465648,activation/repression
+g5,g4,0.0486908965465186,activation/repression
+g18,g17,0.0444344497170952,activation/repression
+g1,g16,0.0428223031783733,activation/repression
+g4,g15,0.0418624320174533,activation/repression
+g3,g11,0.0392527605554493,activation/repression
+g4,g14,0.0349947198376512,activation/repression
+g1,g18,0.0338104558406268,activation/repression
+g1,g2,0.0264265360169032,activation/repression
+g18,g6,0.026394771746105,activation/repression
+g4,g1,0.0263899012574802,activation/repression
+g18,g15,0.0238288359889455,activation/repression
+g18,g1,0.0199306587498215,activation/repression
+g4,g17,0.0151259821707942,activation/repression
+g18,g2,0.0131758683799944,activation/repression
+g2,g12,0.0129688701461214,activation/repression
+g1,g9,0.00913978833813757,activation/repression
+g5,g3,0.00751388649339583,activation/repression
+g2,g10,0.00646550888227112,activation/repression
+g14,g11,1.02434937822741e-35,activation/repression
+g14,g13,1.01480160689575e-35,activation/repression
+g15,g13,9.4668676479267e-36,activation/repression
+g14,g12,8.69111490993951e-36,activation/repression
+g7,g6,8.644367771564e-36,activation/repression
+g10,g9,8.16894933627003e-36,activation/repression
+g15,g11,7.65130613102293e-36,activation/repression
+g15,g12,7.59185245365253e-36,activation/repression
+g8,g7,7.05101387488421e-36,activation/repression
+g13,g11,6.98682114316093e-36,activation/repression
+g11,g9,6.88836162235766e-36,activation/repression
+g16,g13,6.07559455570675e-36,activation/repression
+g6,g5,5.98819457075115e-36,activation/repression
+g15,g14,5.70313615097e-36,activation/repression
+g16,g11,5.66870827300745e-36,activation/repression
+g10,g8,5.41610284801522e-36,activation/repression
+g16,g12,5.19153496678946e-36,activation/repression
+g12,g10,5.01546719410945e-36,activation/repression
+g9,g7,4.68865158980415e-36,activation/repression
+g12,g11,4.51957811583265e-36,activation/repression
+g13,g12,3.80117468319121e-36,activation/repression
+g12,g9,3.76358894042348e-36,activation/repression
+g11,g10,3.75904447573845e-36,activation/repression
+g9,g8,3.65730734264208e-36,activation/repression
+g17,g11,3.46915552782893e-36,activation/repression
+g9,g15,3.12882485139113e-36,activation/repression
+g17,g13,3.10129005699851e-36,activation/repression
+g13,g10,2.98430222597761e-36,activation/repression
+g17,g12,2.95352070654076e-36,activation/repression
+g8,g6,2.73632228530013e-36,activation/repression
+g16,g14,2.62974250677007e-36,activation/repression
+g8,g16,2.45170032610487e-36,activation/repression
+g8,g15,1.77877052680878e-36,activation/repression
+g14,g10,1.46451652902292e-36,activation/repression
+g17,g14,1.30410775993802e-36,activation/repression
+g10,g15,1.29003576694905e-36,activation/repression
+g10,g7,9.83341066931723e-37,activation/repression
+g9,g16,8.23300628289541e-37,activation/repression
+g7,g5,7.9990811096258e-37,activation/repression
+g11,g8,5.93357058992935e-37,activation/repression
+g6,g4,5.55891004314559e-37,activation/repression
+g13,g9,4.72978639626365e-37,activation/repression
+g13,g14,4.33738676786935e-37,activation/repression
+g17,g10,2.9559349608295e-37,activation/repression
+g1,g1,0,no regulation
+g1,g10,0,no regulation
+g1,g11,0,no regulation
+g1,g12,0,no regulation
+g1,g13,0,no regulation
+g1,g14,0,no regulation
+g1,g17,0,no regulation
+g1,g3,0,no regulation
+g1,g4,0,no regulation
+g10,g1,0,no regulation
+g10,g10,0,no regulation
+g10,g11,0,no regulation
+g10,g12,0,no regulation
+g10,g13,0,no regulation
+g10,g14,0,no regulation
+g10,g16,0,no regulation
+g10,g17,0,no regulation
+g10,g18,0,no regulation
+g10,g2,0,no regulation
+g10,g3,0,no regulation
+g10,g4,0,no regulation
+g10,g5,0,no regulation
+g10,g6,0,no regulation
+g11,g1,0,no regulation
+g11,g11,0,no regulation
+g11,g12,0,no regulation
+g11,g13,0,no regulation
+g11,g14,0,no regulation
+g11,g15,0,no regulation
+g11,g16,0,no regulation
+g11,g17,0,no regulation
+g11,g18,0,no regulation
+g11,g2,0,no regulation
+g11,g3,0,no regulation
+g11,g4,0,no regulation
+g11,g5,0,no regulation
+g11,g6,0,no regulation
+g11,g7,0,no regulation
+g12,g1,0,no regulation
+g12,g12,0,no regulation
+g12,g13,0,no regulation
+g12,g14,0,no regulation
+g12,g15,0,no regulation
+g12,g16,0,no regulation
+g12,g17,0,no regulation
+g12,g18,0,no regulation
+g12,g2,0,no regulation
+g12,g3,0,no regulation
+g12,g4,0,no regulation
+g12,g5,0,no regulation
+g12,g6,0,no regulation
+g12,g7,0,no regulation
+g12,g8,0,no regulation
+g13,g1,0,no regulation
+g13,g13,0,no regulation
+g13,g15,0,no regulation
+g13,g16,0,no regulation
+g13,g17,0,no regulation
+g13,g18,0,no regulation
+g13,g2,0,no regulation
+g13,g3,0,no regulation
+g13,g4,0,no regulation
+g13,g5,0,no regulation
+g13,g6,0,no regulation
+g13,g7,0,no regulation
+g13,g8,0,no regulation
+g14,g1,0,no regulation
+g14,g14,0,no regulation
+g14,g15,0,no regulation
+g14,g16,0,no regulation
+g14,g17,0,no regulation
+g14,g18,0,no regulation
+g14,g2,0,no regulation
+g14,g3,0,no regulation
+g14,g4,0,no regulation
+g14,g5,0,no regulation
+g14,g6,0,no regulation
+g14,g7,0,no regulation
+g14,g8,0,no regulation
+g14,g9,0,no regulation
+g15,g1,0,no regulation
+g15,g10,0,no regulation
+g15,g15,0,no regulation
+g15,g16,0,no regulation
+g15,g17,0,no regulation
+g15,g18,0,no regulation
+g15,g2,0,no regulation
+g15,g3,0,no regulation
+g15,g4,0,no regulation
+g15,g5,0,no regulation
+g15,g6,0,no regulation
+g15,g7,0,no regulation
+g15,g8,0,no regulation
+g15,g9,0,no regulation
+g16,g1,0,no regulation
+g16,g10,0,no regulation
+g16,g15,0,no regulation
+g16,g16,0,no regulation
+g16,g17,0,no regulation
+g16,g18,0,no regulation
+g16,g2,0,no regulation
+g16,g3,0,no regulation
+g16,g4,0,no regulation
+g16,g5,0,no regulation
+g16,g6,0,no regulation
+g16,g7,0,no regulation
+g16,g8,0,no regulation
+g16,g9,0,no regulation
+g17,g1,0,no regulation
+g17,g15,0,no regulation
+g17,g16,0,no regulation
+g17,g17,0,no regulation
+g17,g18,0,no regulation
+g17,g2,0,no regulation
+g17,g3,0,no regulation
+g17,g4,0,no regulation
+g17,g5,0,no regulation
+g17,g6,0,no regulation
+g17,g7,0,no regulation
+g17,g8,0,no regulation
+g17,g9,0,no regulation
+g18,g10,0,no regulation
+g18,g18,0,no regulation
+g18,g3,0,no regulation
+g18,g4,0,no regulation
+g18,g5,0,no regulation
+g18,g7,0,no regulation
+g18,g8,0,no regulation
+g18,g9,0,no regulation
+g2,g11,0,no regulation
+g2,g2,0,no regulation
+g2,g9,0,no regulation
+g3,g3,0,no regulation
+g4,g10,0,no regulation
+g4,g11,0,no regulation
+g4,g12,0,no regulation
+g4,g13,0,no regulation
+g4,g16,0,no regulation
+g4,g4,0,no regulation
+g4,g5,0,no regulation
+g4,g6,0,no regulation
+g4,g7,0,no regulation
+g4,g8,0,no regulation
+g4,g9,0,no regulation
+g5,g1,0,no regulation
+g5,g10,0,no regulation
+g5,g11,0,no regulation
+g5,g12,0,no regulation
+g5,g13,0,no regulation
+g5,g14,0,no regulation
+g5,g15,0,no regulation
+g5,g16,0,no regulation
+g5,g17,0,no regulation
+g5,g18,0,no regulation
+g5,g2,0,no regulation
+g5,g5,0,no regulation
+g5,g6,0,no regulation
+g5,g7,0,no regulation
+g5,g8,0,no regulation
+g5,g9,0,no regulation
+g6,g1,0,no regulation
+g6,g10,0,no regulation
+g6,g11,0,no regulation
+g6,g12,0,no regulation
+g6,g13,0,no regulation
+g6,g14,0,no regulation
+g6,g15,0,no regulation
+g6,g16,0,no regulation
+g6,g17,0,no regulation
+g6,g18,0,no regulation
+g6,g2,0,no regulation
+g6,g3,0,no regulation
+g6,g6,0,no regulation
+g6,g7,0,no regulation
+g6,g8,0,no regulation
+g6,g9,0,no regulation
+g7,g1,0,no regulation
+g7,g10,0,no regulation
+g7,g11,0,no regulation
+g7,g12,0,no regulation
+g7,g13,0,no regulation
+g7,g14,0,no regulation
+g7,g15,0,no regulation
+g7,g16,0,no regulation
+g7,g17,0,no regulation
+g7,g18,0,no regulation
+g7,g2,0,no regulation
+g7,g3,0,no regulation
+g7,g4,0,no regulation
+g7,g7,0,no regulation
+g7,g8,0,no regulation
+g7,g9,0,no regulation
+g8,g1,0,no regulation
+g8,g10,0,no regulation
+g8,g11,0,no regulation
+g8,g12,0,no regulation
+g8,g13,0,no regulation
+g8,g14,0,no regulation
+g8,g17,0,no regulation
+g8,g18,0,no regulation
+g8,g2,0,no regulation
+g8,g3,0,no regulation
+g8,g4,0,no regulation
+g8,g5,0,no regulation
+g8,g8,0,no regulation
+g8,g9,0,no regulation
+g9,g1,0,no regulation
+g9,g10,0,no regulation
+g9,g11,0,no regulation
+g9,g12,0,no regulation
+g9,g13,0,no regulation
+g9,g14,0,no regulation
+g9,g17,0,no regulation
+g9,g18,0,no regulation
+g9,g2,0,no regulation
+g9,g3,0,no regulation
+g9,g4,0,no regulation
+g9,g5,0,no regulation
+g9,g6,0,no regulation
+g9,g9,0,no regulation

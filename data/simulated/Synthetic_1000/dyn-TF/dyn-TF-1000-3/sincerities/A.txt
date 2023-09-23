@@ -1,0 +1,65 @@
+SourceGENES,TargetGENES,Interaction,Edges
+g2,g1,1,activation/repression
+g4,g5,0.133108105074284,activation/repression
+g2,g8,0.110117934771082,activation/repression
+g4,g6,0.105496635989685,activation/repression
+g3,g2,0.00996937005818736,activation/repression
+g1,g5,1.42557647668044e-36,activation/repression
+g5,g6,1.35888432820416e-36,activation/repression
+g1,g6,1.32746813905652e-36,activation/repression
+g7,g5,1.07200747009553e-36,activation/repression
+g1,g4,9.02361284882699e-37,activation/repression
+g8,g5,7.10656323345445e-37,activation/repression
+g1,g7,5.6523166219068e-37,activation/repression
+g8,g6,5.63485695465532e-37,activation/repression
+g7,g6,5.50573354097367e-37,activation/repression
+g6,g5,5.37435912174179e-37,activation/repression
+g5,g4,3.81201213717331e-37,activation/repression
+g6,g3,2.49079837247796e-37,activation/repression
+g8,g4,2.31059790357897e-37,activation/repression
+g7,g4,1.23265390944302e-37,activation/repression
+g8,g3,8.90784148443037e-38,activation/repression
+g1,g1,0,no regulation
+g1,g2,0,no regulation
+g1,g3,0,no regulation
+g1,g8,0,no regulation
+g2,g2,0,no regulation
+g2,g3,0,no regulation
+g2,g4,0,no regulation
+g2,g5,0,no regulation
+g2,g6,0,no regulation
+g2,g7,0,no regulation
+g3,g1,0,no regulation
+g3,g3,0,no regulation
+g3,g4,0,no regulation
+g3,g5,0,no regulation
+g3,g6,0,no regulation
+g3,g7,0,no regulation
+g3,g8,0,no regulation
+g4,g1,0,no regulation
+g4,g2,0,no regulation
+g4,g3,0,no regulation
+g4,g4,0,no regulation
+g4,g7,0,no regulation
+g4,g8,0,no regulation
+g5,g1,0,no regulation
+g5,g2,0,no regulation
+g5,g3,0,no regulation
+g5,g5,0,no regulation
+g5,g7,0,no regulation
+g5,g8,0,no regulation
+g6,g1,0,no regulation
+g6,g2,0,no regulation
+g6,g4,0,no regulation
+g6,g6,0,no regulation
+g6,g7,0,no regulation
+g6,g8,0,no regulation
+g7,g1,0,no regulation
+g7,g2,0,no regulation
+g7,g3,0,no regulation
+g7,g7,0,no regulation
+g7,g8,0,no regulation
+g8,g1,0,no regulation
+g8,g2,0,no regulation
+g8,g7,0,no regulation
+g8,g8,0,no regulation

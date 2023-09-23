@@ -1,0 +1,1 @@
+/data/gpfs/projects/punim0638/stephenz/locaTE-paper/tools//TENET/GO_symbol_rat_regulation_of_transcription+sequence-specific_DNA_binding_list.txt
