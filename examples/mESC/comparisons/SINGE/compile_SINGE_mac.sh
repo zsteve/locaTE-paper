@@ -1,0 +1,1 @@
+../../../../tools/SINGE/compile_SINGE_mac.sh

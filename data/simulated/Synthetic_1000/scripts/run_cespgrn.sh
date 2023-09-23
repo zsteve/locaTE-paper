@@ -5,7 +5,7 @@
 #SBATCH --mem-per-cpu=4G
 #SBATCH --partition=mig
 #SBATCH --time=0-00:30:00
-#SBATCH --array=1-1
+#SBATCH --array=1-125
 #SBATCH --output=%x-%A_%a.out
 
 srcpath="/home/stephenz/stephenz/locaTE-paper/scripts"

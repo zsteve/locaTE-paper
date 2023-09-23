@@ -1,0 +1,1 @@
+../../../../tools/SINGE/run_SINGE_Aggregate.sh

@@ -1,0 +1,1 @@
+../../../../tools/SINGE/run_SINGE_GLG_Test_mac.sh

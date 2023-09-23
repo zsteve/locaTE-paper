@@ -1,0 +1,1 @@
+../../../../tools/SINGE/NEWS.md

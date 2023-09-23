@@ -13,8 +13,14 @@ datapath=`sed -n "${SLURM_ARRAY_TASK_ID} p" paths`
 
 JULIA="/home/stephenz/julia-1.8.4/bin/julia"
 
+# run julia first due to segfault issue
 cd $datapath
-conda activate base
+rm -rf pidc_env 
+$JULIA $path/run_pidc.jl --project=pidc_env
+
+source ~/.bashrc && source ~/.profile
+run rest 
+ml load MATLAB
+conda activate py39
 python $path/run_static.py
-$JULIA $path/run_pidc.jl
 

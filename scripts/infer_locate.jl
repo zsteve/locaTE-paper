@@ -84,7 +84,7 @@ Q = to_backward_kernel(P);
 QT_sp = sparse((Q^args["k"])')
 # directed inference
 @info "Directed inference"
-@info "Computing RDI scores"
+@info "Computing TE scores"
 alg = DiscretizeBayesianBlocks()
 disc = locaTE.discretizations_bulk(X; alg = alg)
 

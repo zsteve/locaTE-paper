@@ -913,11 +913,9 @@ version = "5.1.1+0"
 
 [[deps.locaTE]]
 deps = ["CUDA", "Discretizers", "Distributions", "Documenter", "EvalMetrics", "GraphSignals", "Graphs", "InformationMeasures", "LinearAlgebra", "LogExpFunctions", "MultivariateStats", "NMF", "NNlib", "NearestNeighbors", "ProgressBars", "ProgressMeter", "PyCall", "SparseArrays", "StatsBase", "TSVD", "TensorToolbox"]
-git-tree-sha1 = "314c7827410c986982a51a66ee14f5345512b94b"
-repo-rev = "main"
-repo-url = "/data/gpfs/projects/punim0638/stephenz/locaTE.jl"
+path = "../../tools/locaTE.jl"
 uuid = "d47a2e43-82e6-47ba-a340-eddb77145d33"
-version = "0.3.4"
+version = "0.3.5"
 
 [[deps.nghttp2_jll]]
 deps = ["Artifacts", "Libdl"]

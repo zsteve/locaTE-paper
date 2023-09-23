@@ -44,7 +44,7 @@ else:
 	pd.DataFrame(np.ones(adata.shape[0], dtype = int)).to_csv(DIR_COMPARISON + "branch.csv", header = False, index = False)	
 
 # run TENET
-cmd="cd %s && ml load java && bash %s" % (DIR_COMPARISON, TENET_SCRIPT)
+cmd="cd %s && ml load Java && bash %s" % (DIR_COMPARISON, TENET_SCRIPT)
 os.system(cmd)
 
 # combine TENET
@@ -94,6 +94,32 @@ if is_bifurc:
 			A_1 = pd.read_csv(fname + "/A_branch1_rep_%d.txt" % i, sep = "\t", index_col = False, header = None)
 			A_2 = pd.read_csv(fname + "/A_branch2_rep_%d.txt" % i, sep = "\t", index_col = False, header = None)
 			(l_0*A_0 + l_1*A_1 + l_2*A_2).to_csv(fname + "/A_combined_rep_%d.txt" % i, sep = "\t", index = None, header = None)
+
+# write for SINCERITIES 
+DIR_COMPARISON = os.path.join(DIR, "sincerities/")
+try:
+	os.mkdir(DIR_COMPARISON)
+	os.system("ln -s %s/SINCERITIES/matlab/* %s" % (TOOL_DIR, DIR_COMPARISON))
+except:
+	pass
+_df=pd.DataFrame(adata.X, columns = adata.var.index)
+_df.insert(adata.shape[1], "t", np.digitize(dpt, np.histogram_bin_edges(dpt, bins = 10), right = True))
+_df.to_excel(DIR_COMPARISON + "X.xlsx", header = True, index = False)
+cmd="cd %s && matlab -nodesktop -r \"run run_sincerities.m\"" % DIR_COMPARISON
+os.system(cmd)
+
+# write for GRISLI
+DIR_COMPARISON = os.path.join(DIR, "grisli/")
+try:
+	os.mkdir(DIR_COMPARISON)
+	os.system("ln -s %s/GRISLI/* %s" % (TOOL_DIR, DIR_COMPARISON))
+except:
+	pass
+pd.DataFrame(adata.X).to_csv(DIR_COMPARISON + "X.csv", header = False, index = False)
+pd.DataFrame(dpt).to_csv(DIR_COMPARISON + "dpt.csv", header = False, index = False)
+# run GRISLI
+cmd="cd %s && matlab -nodesktop -r \"run main.m\"" % DIR_COMPARISON
+os.system(cmd)
 
 # Scribe
 import Scribe as scr
