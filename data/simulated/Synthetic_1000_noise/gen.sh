@@ -12,7 +12,7 @@ for i in $(ls); do
         # sed -i "s~__DATAPATH__~$DIR~g" $DIR/run_cespgrn.sh
         # sed -i "s~__DATAPATH__~$DIR~g" $DIR/run_undir.sh
         echo "Submitting batch job"
-        # sbatch $DIR/run.sh
+        sbatch $DIR/run.sh
         # sbatch $DIR/run_cespgrn.sh
         # sbatch $DIR/run_undir.sh
     done

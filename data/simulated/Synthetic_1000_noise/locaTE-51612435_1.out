@@ -1,0 +1,14 @@
+Transition matrix dpt
+/var/spool/slurm/job51612435/slurm_script: line 25: 162328 Segmentation fault      (core dumped) JULIA_NUM_THREADS=1 $JULIA $srcpath/infer_locate.jl --X $datapath/X.npy --X_pca $datapath/X_pca.npy --P $i --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix $ptype
+Transition matrix pba
+/var/spool/slurm/job51612435/slurm_script: line 25: 162865 Segmentation fault      (core dumped) JULIA_NUM_THREADS=1 $JULIA $srcpath/infer_locate.jl --X $datapath/X.npy --X_pca $datapath/X_pca.npy --P $i --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix $ptype
+Transition matrix statot_ent
+/var/spool/slurm/job51612435/slurm_script: line 25: 163579 Segmentation fault      (core dumped) JULIA_NUM_THREADS=1 $JULIA $srcpath/infer_locate.jl --X $datapath/X.npy --X_pca $datapath/X_pca.npy --P $i --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix $ptype
+Transition matrix statot
+/var/spool/slurm/job51612435/slurm_script: line 25: 164921 Segmentation fault      (core dumped) JULIA_NUM_THREADS=1 $JULIA $srcpath/infer_locate.jl --X $datapath/X.npy --X_pca $datapath/X_pca.npy --P $i --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix $ptype
+Transition matrix velo_corr
+/var/spool/slurm/job51612435/slurm_script: line 25: 165413 Segmentation fault      (core dumped) JULIA_NUM_THREADS=1 $JULIA $srcpath/infer_locate.jl --X $datapath/X.npy --X_pca $datapath/X_pca.npy --P $i --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix $ptype
+Transition matrix velo_cos
+/var/spool/slurm/job51612435/slurm_script: line 25: 166159 Segmentation fault      (core dumped) JULIA_NUM_THREADS=1 $JULIA $srcpath/infer_locate.jl --X $datapath/X.npy --X_pca $datapath/X_pca.npy --P $i --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix $ptype
+Transition matrix velo_dot
+/var/spool/slurm/job51612435/slurm_script: line 25: 166628 Segmentation fault      (core dumped) JULIA_NUM_THREADS=1 $JULIA $srcpath/infer_locate.jl --X $datapath/X.npy --X_pca $datapath/X_pca.npy --P $i --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix $ptype
