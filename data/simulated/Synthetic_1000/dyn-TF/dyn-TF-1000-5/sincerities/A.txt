@@ -1,65 +1,65 @@
 SourceGENES,TargetGENES,Interaction,Edges
-g2,g4,1,activation/repression
-g2,g8,0.464521707816269,activation/repression
-g3,g2,0.438345895106476,activation/repression
-g2,g5,0.311845830807294,activation/repression
-g2,g6,0.233163901239456,activation/repression
-g2,g7,0.227966376214327,activation/repression
-g2,g1,0.206204828887317,activation/repression
-g3,g8,0.160747709037016,activation/repression
-g1,g4,0.109494922426692,activation/repression
-g1,g5,0.0987239541447478,activation/repression
-g3,g4,0.0871560298385697,activation/repression
-g1,g6,0.0835411281844498,activation/repression
-g3,g1,0.0498506473409195,activation/repression
-g5,g3,1.59074406261243e-36,activation/repression
-g6,g3,1.48267734236528e-36,activation/repression
-g8,g4,9.71201816096193e-37,activation/repression
-g4,g3,9.3785059230056e-37,activation/repression
-g8,g5,9.16636208332808e-37,activation/repression
-g8,g6,5.91365523274475e-37,activation/repression
-g7,g3,5.08276822316125e-37,activation/repression
-g8,g7,3.96251563134191e-37,activation/repression
-g6,g4,5.65545422005858e-38,activation/repression
-g6,g5,4.46083971190535e-38,activation/repression
-g1,g1,0,no regulation
-g1,g2,0,no regulation
-g1,g3,0,no regulation
-g1,g7,0,no regulation
-g1,g8,0,no regulation
-g2,g2,0,no regulation
-g2,g3,0,no regulation
-g3,g3,0,no regulation
-g3,g5,0,no regulation
-g3,g6,0,no regulation
-g3,g7,0,no regulation
-g4,g1,0,no regulation
-g4,g2,0,no regulation
-g4,g4,0,no regulation
-g4,g5,0,no regulation
-g4,g6,0,no regulation
-g4,g7,0,no regulation
-g4,g8,0,no regulation
-g5,g1,0,no regulation
-g5,g2,0,no regulation
-g5,g4,0,no regulation
-g5,g5,0,no regulation
-g5,g6,0,no regulation
-g5,g7,0,no regulation
-g5,g8,0,no regulation
-g6,g1,0,no regulation
-g6,g2,0,no regulation
-g6,g6,0,no regulation
-g6,g7,0,no regulation
-g6,g8,0,no regulation
-g7,g1,0,no regulation
-g7,g2,0,no regulation
-g7,g4,0,no regulation
-g7,g5,0,no regulation
-g7,g6,0,no regulation
-g7,g7,0,no regulation
-g7,g8,0,no regulation
-g8,g1,0,no regulation
-g8,g2,0,no regulation
-g8,g3,0,no regulation
-g8,g8,0,no regulation
+Gene  2 ,Gene  4 ,1,activation/repression
+Gene  2 ,Gene  8 ,0.464521707816269,activation/repression
+Gene  3 ,Gene  2 ,0.438345895106476,activation/repression
+Gene  2 ,Gene  5 ,0.311845830807294,activation/repression
+Gene  2 ,Gene  6 ,0.233163901239456,activation/repression
+Gene  2 ,Gene  7 ,0.227966376214327,activation/repression
+Gene  2 ,Gene  1 ,0.206204828887317,activation/repression
+Gene  3 ,Gene  8 ,0.160747709037016,activation/repression
+Gene  1 ,Gene  4 ,0.109494922426692,activation/repression
+Gene  1 ,Gene  5 ,0.0987239541447478,activation/repression
+Gene  3 ,Gene  4 ,0.0871560298385697,activation/repression
+Gene  1 ,Gene  6 ,0.0835411281844498,activation/repression
+Gene  3 ,Gene  1 ,0.0498506473409195,activation/repression
+Gene  5 ,Gene  3 ,1.59074406261243e-36,activation/repression
+Gene  6 ,Gene  3 ,1.48267734236528e-36,activation/repression
+Gene  8 ,Gene  4 ,9.71201816096193e-37,activation/repression
+Gene  4 ,Gene  3 ,9.3785059230056e-37,activation/repression
+Gene  8 ,Gene  5 ,9.16636208332808e-37,activation/repression
+Gene  8 ,Gene  6 ,5.91365523274475e-37,activation/repression
+Gene  7 ,Gene  3 ,5.08276822316125e-37,activation/repression
+Gene  8 ,Gene  7 ,3.96251563134191e-37,activation/repression
+Gene  6 ,Gene  4 ,5.65545422005858e-38,activation/repression
+Gene  6 ,Gene  5 ,4.46083971190535e-38,activation/repression
+Gene  1 ,Gene  1 ,0,no regulation
+Gene  1 ,Gene  2 ,0,no regulation
+Gene  1 ,Gene  3 ,0,no regulation
+Gene  1 ,Gene  7 ,0,no regulation
+Gene  1 ,Gene  8 ,0,no regulation
+Gene  2 ,Gene  2 ,0,no regulation
+Gene  2 ,Gene  3 ,0,no regulation
+Gene  3 ,Gene  3 ,0,no regulation
+Gene  3 ,Gene  5 ,0,no regulation
+Gene  3 ,Gene  6 ,0,no regulation
+Gene  3 ,Gene  7 ,0,no regulation
+Gene  4 ,Gene  1 ,0,no regulation
+Gene  4 ,Gene  2 ,0,no regulation
+Gene  4 ,Gene  4 ,0,no regulation
+Gene  4 ,Gene  5 ,0,no regulation
+Gene  4 ,Gene  6 ,0,no regulation
+Gene  4 ,Gene  7 ,0,no regulation
+Gene  4 ,Gene  8 ,0,no regulation
+Gene  5 ,Gene  1 ,0,no regulation
+Gene  5 ,Gene  2 ,0,no regulation
+Gene  5 ,Gene  4 ,0,no regulation
+Gene  5 ,Gene  5 ,0,no regulation
+Gene  5 ,Gene  6 ,0,no regulation
+Gene  5 ,Gene  7 ,0,no regulation
+Gene  5 ,Gene  8 ,0,no regulation
+Gene  6 ,Gene  1 ,0,no regulation
+Gene  6 ,Gene  2 ,0,no regulation
+Gene  6 ,Gene  6 ,0,no regulation
+Gene  6 ,Gene  7 ,0,no regulation
+Gene  6 ,Gene  8 ,0,no regulation
+Gene  7 ,Gene  1 ,0,no regulation
+Gene  7 ,Gene  2 ,0,no regulation
+Gene  7 ,Gene  4 ,0,no regulation
+Gene  7 ,Gene  5 ,0,no regulation
+Gene  7 ,Gene  6 ,0,no regulation
+Gene  7 ,Gene  7 ,0,no regulation
+Gene  7 ,Gene  8 ,0,no regulation
+Gene  8 ,Gene  1 ,0,no regulation
+Gene  8 ,Gene  2 ,0,no regulation
+Gene  8 ,Gene  3 ,0,no regulation
+Gene  8 ,Gene  8 ,0,no regulation

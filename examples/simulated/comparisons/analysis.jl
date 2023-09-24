@@ -16,6 +16,8 @@ using Suppressor
 using ThreadTools
 using DataFrames
 using ArgParse 
+using StatsPlots
+using CSV
 
 include("process_outputs_util.jl")
 
@@ -40,8 +42,12 @@ datasets = tmap(process_dataset, dataset_dirs)
 Ng = size(first(datasets)["X"], 2)
 Nc = size(first(datasets)["X"], 1)
 
-job_data = tmap(x -> load_job_data(x), dataset_dirs);
+@info "Loading job_data"
+job_data = tmap(x -> load_job_data(x, Ng; locate_what = "G_cdf", cespgrn_what = "G"), dataset_dirs);
+@info "Loading job_data_static"
+job_data_static = tmap(x -> load_job_data(x, Ng; locate_what = "G_static_cdf", cespgrn_what = "G_static"), dataset_dirs);
 
+@info "Scoring jobs"
 job_scores = tmap(((x, y), ) -> score_job_outputs(x["outputs"], y), zip(job_data, datasets));
 
 # performance baselines
@@ -123,18 +129,18 @@ plt_12
 # plt
 # plot(plt1, plt2; bottom_margin = 5Plots.mm, plot_title = string("Dynamic networks: ", split(dataset_dirs[1], r"-1$")...), titlefontsize = 12)
 
-using CSV
-
-is_bifurcating = any(occursin.(["dyn-BFStrange-", "dyn-BF-"], sim))
+is_bifurcating = any(occursin.(["dyn-BFStrange-", "dyn-BF-", "dyn-TF-"], sim))
 if is_bifurcating 
-	outfiles_tenet = map(x -> glob(joinpath(x, "tenet/A_tenet_combined_k_*.txt")), dataset_dirs);
-	outfiles_scode = map(x -> glob(joinpath(x, "scode/SCODE_D_4/A_combined_rep_*.txt")), dataset_dirs);
+	outfiles_tenet = map(x -> glob(joinpath(x, "tenet/A_tenet_combined_k_*.txt")), dataset_dirs)
+	outfiles_scode = map(x -> glob(joinpath(x, "scode/SCODE_D_4/A_combined_rep_*.txt")), dataset_dirs)
 else
-	outfiles_tenet = map(x -> glob(joinpath(x, "tenet/A_tenet_k_*.txt")), dataset_dirs);
-	outfiles_scode = map(x -> glob(joinpath(x, "scode/SCODE_D_4/A_rep_*.txt")), dataset_dirs);
+	outfiles_tenet = map(x -> glob(joinpath(x, "tenet/A_tenet_k_*.txt")), dataset_dirs)
+	outfiles_scode = map(x -> glob(joinpath(x, "scode/SCODE_D_4/A_rep_*.txt")), dataset_dirs)
 end
-outfiles_scribe = map(x -> glob(joinpath(x, "scribe/G_scribe.npy")), dataset_dirs);
-outfiles_pidc = map(x -> glob(joinpath(x, "G_pidc.npy")), dataset_dirs);
+outfiles_scribe = map(x -> glob(joinpath(x, "scribe/G_scribe.npy")), dataset_dirs)
+outfiles_pidc = map(x -> glob(joinpath(x, "G_pidc.npy")), dataset_dirs)
+outfiles_sincerities = map(x -> glob(joinpath(x, "sincerities/A.txt")), dataset_dirs)
+outfiles_grisli = map(x -> glob(joinpath(x, "grisli/A_grisli_L_*.csv")), dataset_dirs)
 
 J_static = map(x -> mean(x["J"]; dims = 1)[1, :, :] .> 0.05, datasets);
 baseline_static = map(x -> mean(x), J_static);
@@ -142,9 +148,12 @@ baseline_static = map(x -> mean(x), J_static);
 scores_static = Dict("tenet" => [map(x -> process_tenet(x, J_static[i])[2] / baseline_static[i], outfiles_tenet[i]) for i = 1:length(outfiles_tenet)],
     "scode" => [map(x -> process_scode(x, J_static[i])[2] / baseline_static[i], outfiles_scode[i]) for i = 1:length(outfiles_scode)],
     "scribe" => [map(x -> process_scribe(x, J_static[i])[2] / baseline_static[i], outfiles_scribe[i]) for i = 1:length(outfiles_scribe)], 
-    "pidc" => [map(x -> process_pidc(x, J_static[i])[2] / baseline_static[i], outfiles_pidc[i]) for i = 1:length(outfiles_pidc)])
-for k in (is_simple ? filter(x -> !any(occursin.(["symm", "statot", "pba"], x)), keys(first(job_data)["outputs"])) : filter(x -> !any(occursin.(["symm", "statot_ent", ], x)), keys(first(job_data)["outputs"])))
-    scores_static[k] = [map(x -> process_locate(x, J_static[i])[2], job_data[i]["outputs"][k]) / baseline_static[i] for i = 1:length(job_data)]
+    "pidc" => [map(x -> process_pidc(x, J_static[i])[2] / baseline_static[i], outfiles_pidc[i]) for i = 1:length(outfiles_pidc)], 
+    "sincerities" => [map(x -> process_sincerities(x, J_static[i])[2] / baseline_static[i], outfiles_sincerities[i]) for i = 1:length(outfiles_sincerities)], 
+    "grisli" => [map(x -> process_grisli(x, J_static[i])[2] / baseline_static[i], outfiles_grisli[i]) for i = 1:length(outfiles_grisli)])
+
+for k in (is_simple ? filter(x -> !any(occursin.(["symm", "statot", "pba"], x)), keys(first(job_data_static)["outputs"])) : filter(x -> !any(occursin.(["symm", "statot_ent", ], x)), keys(first(job_data_static)["outputs"])))
+    scores_static[k] = [map(x -> process_locate(x, J_static[i])[2], job_data_static[i]["outputs"][k]) / baseline_static[i] for i = 1:length(job_data_static)]
 end
 
 plt=plot(; legend = nothing, ylabel = "AUPR ratio", title = string("Directed static networks: ", sim_name[sim]), rotation = 45, bottom_margin = 5Plots.mm, size = (PLT_CELL, PLT_CELL))
@@ -156,6 +165,8 @@ boxplot!(["TENET", ], map(NaNMath.maximum, scores_static["tenet"]), color = :lig
 boxplot!(["PIDC", ], vcat(scores_static["pidc"]...), color = :lightgrey, linecolor = :black)
 boxplot!(["Scribe", ], vcat(scores_static["scribe"]...), color = :lightgrey, linecolor = :black)
 boxplot!(["SCODE", ], vcat(scores_static["scode"]...), color = :lightgrey, linecolor = :black)
+boxplot!(["SINCERITIES", ], vcat(scores_static["sincerities"]...), color = :lightgrey, linecolor = :black)
+boxplot!(["GRISLI", ], map(NaNMath.maximum, scores_static["grisli"]), color = :lightgrey, linecolor = :black)
 savefig(string(FIG_DIR, sim, "_static_aupr.pdf"))
 plt
 
@@ -191,42 +202,50 @@ plt_scribe = heatmap(A; clim = (0, quantile(vec(A), 0.95)), c = :Greys, colorbar
 i = argmax(scores_static["scode"][k])
 A = process_scode(outfiles_scode[k][i], J_static[k])[1]
 plt_scode = heatmap(A; clim = (0, quantile(vec(A), 0.95)), c = :Greys, colorbar = nothing, title = "SCODE");
-plt=plot(plt_locate, plt_locate_dpt, plt_cespgrn, plt_tenet, plt_pidc, plt_scribe, plt_scode, plt_true, layout = (2, 4), size = (800, 420))
+# SINCERITIES
+i = argmax(scores_static["sincerities"][k])
+A = process_sincerities(outfiles_sincerities[k][i], J_static[k])[1]
+plt_sincerities = heatmap(A; clim = (0, quantile(vec(A), 0.95)), c = :Greys, colorbar = nothing, title = "SINCERITIES");
+# GRISLI
+i = argmax(scores_static["grisli"][k])
+A = process_grisli(outfiles_grisli[k][i], J_static[k])[1]
+plt_grisli = heatmap(A; c = :Greys, colorbar = nothing, title = "GRISLI");
+# 
+plt=plot(plt_locate, plt_locate_dpt, plt_cespgrn, plt_tenet, 
+		plt_pidc, plt_scribe, plt_scode, plt_sincerities, plt_grisli, plt_true, layout = (2, 5), size = (1_000, 400))
 savefig(string(FIG_DIR, sim, "_static_best.pdf"))
 plt
 
-#= uncomment to plot parameter dependences (in case of full grid search)
-p = hcat(job_data[k]["params"]["locaTE_velo_dot"]...)
-p_unique = unique.(eachrow(p))
-y = job_scores_map[k]["locaTE_velo_dot"]
-
-plt=plot(hline!(scatter(p_unique[1], vec(maximum(y; dims = (2, 3))), xlabel = "k", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static, ]), 
-     hline!(scatter(p_unique[2], vec(maximum(y; dims = (1, 3))), xlabel = "λ1", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static, ]),
-     hline!(scatter(p_unique[3], vec(maximum(y; dims = (1, 2))), xlabel = "λ2", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static, ]), 
-    plot_title = "locaTE", ylim = (0.9*minimum(y), 1.1*maximum(y)); legend = nothing, ylabel = "AUPRC", layout = (1, 3), bottom_margin = 5Plots.mm, left_margin = 5Plots.mm)
-savefig(string(FIG_DIR, "locaTE_params_", split(dataset_dirs[1], r"-1$")..., ".pdf"))
-plt
-
-p_symm = hcat(job_data[k]["params"]["infer_velo_dot"]...)
-p_symm_unique = unique.(eachrow(p_symm))
-y_symm = job_scores_map[k]["infer_velo_dot_symm"]
-
-plt=plot(hline!(scatter(p_symm_unique[1], vec(maximum(y_symm; dims = (2, 3))), xlabel = "k", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]),
-    hline!(scatter(p_symm_unique[2], vec(maximum(y_symm; dims = (1, 3))), xlabel = "λ1", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]),
-    hline!(scatter(p_symm_unique[3], vec(maximum(y_symm; dims = (1, 2))), xlabel = "λ2", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]), 
-    plot_title = "locaTE-symm", ylim = (0.9*minimum(y_symm), 1.1*maximum(y_symm)); legend = nothing, ylabel = "AUPRC", layout = (1, 3), bottom_margin = 5Plots.mm, left_margin = 5Plots.mm)
-savefig(string(FIG_DIR, "locaTE_params_", split(dataset_dirs[1], r"-1$")..., ".pdf"))
-plt
-
-p_cespgrn = hcat(job_data[k]["params"]["cespgrn"]...)
-p_cespgrn_unique = unique.(eachrow(p_cespgrn))
-y_cespgrn = job_scores_map[k]["cespgrn_symm"]
-
-plt=plot(hline!(scatter(p_cespgrn_unique[1], vec(maximum(y_cespgrn; dims = (2, 3))), xlabel = "k", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]),
-    hline!(scatter(p_cespgrn_unique[2], vec(maximum(y_cespgrn; dims = (1, 3))), xlabel = "bw", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]),
-    hline!(scatter(p_cespgrn_unique[3], vec(maximum(y_cespgrn; dims = (1, 2))), xlabel = "λ", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]), 
-    title = "CeSpGRN", ylim = (0.9*minimum(y_cespgrn), 1.1*maximum(y_cespgrn)); legend = nothing, ylabel = "AUPRC", layout = (1, 3), bottom_margin = 5Plots.mm, left_margin = 5Plots.mm)
-savefig(string(FIG_DIR, "CeSpGRN_params_", split(dataset_dirs[1], r"-1$")..., ".pdf"))
-plt
-
-=#
+# uncomment to plot parameter dependences (in case of full grid search)
+# p = hcat(job_data[k]["params"]["locaTE_velo_dot"]...)
+# p_unique = unique.(eachrow(p))
+# y = job_scores_map[k]["locaTE_velo_dot"]
+# 
+# plt=plot(hline!(scatter(p_unique[1], vec(maximum(y; dims = (2, 3))), xlabel = "k", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static, ]), 
+#      hline!(scatter(p_unique[2], vec(maximum(y; dims = (1, 3))), xlabel = "λ1", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static, ]),
+#      hline!(scatter(p_unique[3], vec(maximum(y; dims = (1, 2))), xlabel = "λ2", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static, ]), 
+#     plot_title = "locaTE", ylim = (0.9*minimum(y), 1.1*maximum(y)); legend = nothing, ylabel = "AUPRC", layout = (1, 3), bottom_margin = 5Plots.mm, left_margin = 5Plots.mm)
+# savefig(string(FIG_DIR, "locaTE_params_", split(dataset_dirs[1], r"-1$")..., ".pdf"))
+# plt
+# 
+# p_symm = hcat(job_data[k]["params"]["infer_velo_dot"]...)
+# p_symm_unique = unique.(eachrow(p_symm))
+# y_symm = job_scores_map[k]["infer_velo_dot_symm"]
+# 
+# plt=plot(hline!(scatter(p_symm_unique[1], vec(maximum(y_symm; dims = (2, 3))), xlabel = "k", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]),
+#     hline!(scatter(p_symm_unique[2], vec(maximum(y_symm; dims = (1, 3))), xlabel = "λ1", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]),
+#     hline!(scatter(p_symm_unique[3], vec(maximum(y_symm; dims = (1, 2))), xlabel = "λ2", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]), 
+#     plot_title = "locaTE-symm", ylim = (0.9*minimum(y_symm), 1.1*maximum(y_symm)); legend = nothing, ylabel = "AUPRC", layout = (1, 3), bottom_margin = 5Plots.mm, left_margin = 5Plots.mm)
+# savefig(string(FIG_DIR, "locaTE_params_", split(dataset_dirs[1], r"-1$")..., ".pdf"))
+# plt
+# 
+# p_cespgrn = hcat(job_data[k]["params"]["cespgrn"]...)
+# p_cespgrn_unique = unique.(eachrow(p_cespgrn))
+# y_cespgrn = job_scores_map[k]["cespgrn_symm"]
+# 
+# plt=plot(hline!(scatter(p_cespgrn_unique[1], vec(maximum(y_cespgrn; dims = (2, 3))), xlabel = "k", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]),
+#     hline!(scatter(p_cespgrn_unique[2], vec(maximum(y_cespgrn; dims = (1, 3))), xlabel = "bw", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]),
+#     hline!(scatter(p_cespgrn_unique[3], vec(maximum(y_cespgrn; dims = (1, 2))), xlabel = "λ", size = (3/2*PLT_CELL, PLT_CELL/2)), [perf_static_symm, ]), 
+#     title = "CeSpGRN", ylim = (0.9*minimum(y_cespgrn), 1.1*maximum(y_cespgrn)); legend = nothing, ylabel = "AUPRC", layout = (1, 3), bottom_margin = 5Plots.mm, left_margin = 5Plots.mm)
+# savefig(string(FIG_DIR, "CeSpGRN_params_", split(dataset_dirs[1], r"-1$")..., ".pdf"))
+# plt

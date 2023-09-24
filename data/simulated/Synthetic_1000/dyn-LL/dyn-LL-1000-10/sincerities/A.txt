@@ -1,325 +1,325 @@
 SourceGENES,TargetGENES,Interaction,Edges
-g3,g17,1,activation/repression
-g3,g18,0.93556289485754,activation/repression
-g3,g15,0.746910202469293,activation/repression
-g3,g16,0.704707338153147,activation/repression
-g4,g3,0.674151296551103,activation/repression
-g3,g14,0.564370494680442,activation/repression
-g3,g2,0.492315207334176,activation/repression
-g3,g1,0.479652757341732,activation/repression
-g7,g6,0.382151842690612,activation/repression
-g2,g17,0.379097438181514,activation/repression
-g4,g2,0.366016734138757,activation/repression
-g4,g15,0.34402103167344,activation/repression
-g2,g18,0.341635316668125,activation/repression
-g3,g13,0.305078998019581,activation/repression
-g2,g15,0.300938511584255,activation/repression
-g2,g16,0.280383086377531,activation/repression
-g3,g11,0.273650077679066,activation/repression
-g4,g18,0.26277137963854,activation/repression
-g3,g7,0.232150152574412,activation/repression
-g3,g4,0.231254175581201,activation/repression
-g7,g5,0.219259006662372,activation/repression
-g3,g6,0.203101595204577,activation/repression
-g2,g14,0.202309759194895,activation/repression
-g3,g10,0.190406303934591,activation/repression
-g3,g12,0.189425854270891,activation/repression
-g2,g1,0.188188357816821,activation/repression
-g3,g5,0.180313029404045,activation/repression
-g4,g17,0.159342382414308,activation/repression
-g3,g9,0.143653315411474,activation/repression
-g3,g8,0.131472184001294,activation/repression
-g2,g4,0.116231470029932,activation/repression
-g2,g7,0.114299153550039,activation/repression
-g2,g6,0.11229220684106,activation/repression
-g2,g5,0.103778801568428,activation/repression
-g2,g13,0.103516949545723,activation/repression
-g4,g1,0.0905303037834742,activation/repression
-g2,g11,0.0869885161575109,activation/repression
-g4,g16,0.0670850491326721,activation/repression
-g2,g12,0.0640186191154131,activation/repression
-g2,g3,0.0603843721914245,activation/repression
-g2,g8,0.0552834440856538,activation/repression
-g5,g4,0.0550260286179754,activation/repression
-g4,g5,0.0524978384739377,activation/repression
-g2,g10,0.0478768785144475,activation/repression
-g5,g3,0.0247197969607071,activation/repression
-g2,g9,0.0216868378721238,activation/repression
-g5,g15,0.0193569049863067,activation/repression
-g4,g14,0.0186693818714822,activation/repression
-g15,g13,0.0124163796368835,activation/repression
-g15,g12,0.0113669396784272,activation/repression
-g15,g11,0.00887200816292985,activation/repression
-g15,g14,0.00725052548943777,activation/repression
-g5,g2,0.00592065776422813,activation/repression
-g5,g16,0.00458406996302291,activation/repression
-g5,g1,0.00401815314250596,activation/repression
-g12,g10,6.95693513525055e-36,activation/repression
-g10,g9,6.65090183006623e-36,activation/repression
-g6,g5,6.43723163481363e-36,activation/repression
-g9,g8,6.40680453947384e-36,activation/repression
-g8,g6,5.70439446315144e-36,activation/repression
-g9,g7,5.6825270202862e-36,activation/repression
-g8,g7,5.44867394794336e-36,activation/repression
-g13,g10,4.62493205433747e-36,activation/repression
-g11,g10,4.59891083846368e-36,activation/repression
-g13,g11,4.37071181189278e-36,activation/repression
-g14,g11,4.02142788876175e-36,activation/repression
-g14,g12,3.9192773040833e-36,activation/repression
-g14,g13,3.64441385092195e-36,activation/repression
-g11,g9,3.49513850602663e-36,activation/repression
-g12,g11,3.46117314442488e-36,activation/repression
-g16,g13,2.88273143226966e-36,activation/repression
-g16,g12,2.86888352772805e-36,activation/repression
-g13,g12,2.13249472656603e-36,activation/repression
-g16,g11,1.93143184869894e-36,activation/repression
-g17,g13,1.78810414190575e-36,activation/repression
-g17,g12,1.70236760233974e-36,activation/repression
-g10,g8,1.48956013373405e-36,activation/repression
-g6,g4,1.28861832281289e-36,activation/repression
-g17,g11,1.27794508479279e-36,activation/repression
-g14,g10,1.23921941874491e-36,activation/repression
-g18,g7,7.29622265838628e-37,activation/repression
-g16,g14,7.20878071038323e-37,activation/repression
-g17,g14,7.17276329396545e-37,activation/repression
-g13,g14,6.15318564273263e-37,activation/repression
-g1,g3,5.89863540809344e-37,activation/repression
-g18,g8,4.78494765289347e-37,activation/repression
-g18,g12,4.06162376028785e-37,activation/repression
-g18,g13,3.99889732014936e-37,activation/repression
-g18,g11,2.59490244716777e-37,activation/repression
-g18,g14,1.98132713721785e-37,activation/repression
-g9,g6,9.91633151295847e-38,activation/repression
-g18,g6,8.71658949225363e-38,activation/repression
-g1,g5,5.70827658347404e-38,activation/repression
-g12,g17,3.38345340072696e-38,activation/repression
-g13,g17,3.00283298400239e-38,activation/repression
-g10,g18,2.99090205587624e-38,activation/repression
-g1,g9,1.72691053495721e-38,activation/repression
-g1,g1,0,no regulation
-g1,g10,0,no regulation
-g1,g11,0,no regulation
-g1,g12,0,no regulation
-g1,g13,0,no regulation
-g1,g14,0,no regulation
-g1,g15,0,no regulation
-g1,g16,0,no regulation
-g1,g17,0,no regulation
-g1,g18,0,no regulation
-g1,g2,0,no regulation
-g1,g4,0,no regulation
-g1,g6,0,no regulation
-g1,g7,0,no regulation
-g1,g8,0,no regulation
-g10,g1,0,no regulation
-g10,g10,0,no regulation
-g10,g11,0,no regulation
-g10,g12,0,no regulation
-g10,g13,0,no regulation
-g10,g14,0,no regulation
-g10,g15,0,no regulation
-g10,g16,0,no regulation
-g10,g17,0,no regulation
-g10,g2,0,no regulation
-g10,g3,0,no regulation
-g10,g4,0,no regulation
-g10,g5,0,no regulation
-g10,g6,0,no regulation
-g10,g7,0,no regulation
-g11,g1,0,no regulation
-g11,g11,0,no regulation
-g11,g12,0,no regulation
-g11,g13,0,no regulation
-g11,g14,0,no regulation
-g11,g15,0,no regulation
-g11,g16,0,no regulation
-g11,g17,0,no regulation
-g11,g18,0,no regulation
-g11,g2,0,no regulation
-g11,g3,0,no regulation
-g11,g4,0,no regulation
-g11,g5,0,no regulation
-g11,g6,0,no regulation
-g11,g7,0,no regulation
-g11,g8,0,no regulation
-g12,g1,0,no regulation
-g12,g12,0,no regulation
-g12,g13,0,no regulation
-g12,g14,0,no regulation
-g12,g15,0,no regulation
-g12,g16,0,no regulation
-g12,g18,0,no regulation
-g12,g2,0,no regulation
-g12,g3,0,no regulation
-g12,g4,0,no regulation
-g12,g5,0,no regulation
-g12,g6,0,no regulation
-g12,g7,0,no regulation
-g12,g8,0,no regulation
-g12,g9,0,no regulation
-g13,g1,0,no regulation
-g13,g13,0,no regulation
-g13,g15,0,no regulation
-g13,g16,0,no regulation
-g13,g18,0,no regulation
-g13,g2,0,no regulation
-g13,g3,0,no regulation
-g13,g4,0,no regulation
-g13,g5,0,no regulation
-g13,g6,0,no regulation
-g13,g7,0,no regulation
-g13,g8,0,no regulation
-g13,g9,0,no regulation
-g14,g1,0,no regulation
-g14,g14,0,no regulation
-g14,g15,0,no regulation
-g14,g16,0,no regulation
-g14,g17,0,no regulation
-g14,g18,0,no regulation
-g14,g2,0,no regulation
-g14,g3,0,no regulation
-g14,g4,0,no regulation
-g14,g5,0,no regulation
-g14,g6,0,no regulation
-g14,g7,0,no regulation
-g14,g8,0,no regulation
-g14,g9,0,no regulation
-g15,g1,0,no regulation
-g15,g10,0,no regulation
-g15,g15,0,no regulation
-g15,g16,0,no regulation
-g15,g17,0,no regulation
-g15,g18,0,no regulation
-g15,g2,0,no regulation
-g15,g3,0,no regulation
-g15,g4,0,no regulation
-g15,g5,0,no regulation
-g15,g6,0,no regulation
-g15,g7,0,no regulation
-g15,g8,0,no regulation
-g15,g9,0,no regulation
-g16,g1,0,no regulation
-g16,g10,0,no regulation
-g16,g15,0,no regulation
-g16,g16,0,no regulation
-g16,g17,0,no regulation
-g16,g18,0,no regulation
-g16,g2,0,no regulation
-g16,g3,0,no regulation
-g16,g4,0,no regulation
-g16,g5,0,no regulation
-g16,g6,0,no regulation
-g16,g7,0,no regulation
-g16,g8,0,no regulation
-g16,g9,0,no regulation
-g17,g1,0,no regulation
-g17,g10,0,no regulation
-g17,g15,0,no regulation
-g17,g16,0,no regulation
-g17,g17,0,no regulation
-g17,g18,0,no regulation
-g17,g2,0,no regulation
-g17,g3,0,no regulation
-g17,g4,0,no regulation
-g17,g5,0,no regulation
-g17,g6,0,no regulation
-g17,g7,0,no regulation
-g17,g8,0,no regulation
-g17,g9,0,no regulation
-g18,g1,0,no regulation
-g18,g10,0,no regulation
-g18,g15,0,no regulation
-g18,g16,0,no regulation
-g18,g17,0,no regulation
-g18,g18,0,no regulation
-g18,g2,0,no regulation
-g18,g3,0,no regulation
-g18,g4,0,no regulation
-g18,g5,0,no regulation
-g18,g9,0,no regulation
-g2,g2,0,no regulation
-g3,g3,0,no regulation
-g4,g10,0,no regulation
-g4,g11,0,no regulation
-g4,g12,0,no regulation
-g4,g13,0,no regulation
-g4,g4,0,no regulation
-g4,g6,0,no regulation
-g4,g7,0,no regulation
-g4,g8,0,no regulation
-g4,g9,0,no regulation
-g5,g10,0,no regulation
-g5,g11,0,no regulation
-g5,g12,0,no regulation
-g5,g13,0,no regulation
-g5,g14,0,no regulation
-g5,g17,0,no regulation
-g5,g18,0,no regulation
-g5,g5,0,no regulation
-g5,g6,0,no regulation
-g5,g7,0,no regulation
-g5,g8,0,no regulation
-g5,g9,0,no regulation
-g6,g1,0,no regulation
-g6,g10,0,no regulation
-g6,g11,0,no regulation
-g6,g12,0,no regulation
-g6,g13,0,no regulation
-g6,g14,0,no regulation
-g6,g15,0,no regulation
-g6,g16,0,no regulation
-g6,g17,0,no regulation
-g6,g18,0,no regulation
-g6,g2,0,no regulation
-g6,g3,0,no regulation
-g6,g6,0,no regulation
-g6,g7,0,no regulation
-g6,g8,0,no regulation
-g6,g9,0,no regulation
-g7,g1,0,no regulation
-g7,g10,0,no regulation
-g7,g11,0,no regulation
-g7,g12,0,no regulation
-g7,g13,0,no regulation
-g7,g14,0,no regulation
-g7,g15,0,no regulation
-g7,g16,0,no regulation
-g7,g17,0,no regulation
-g7,g18,0,no regulation
-g7,g2,0,no regulation
-g7,g3,0,no regulation
-g7,g4,0,no regulation
-g7,g7,0,no regulation
-g7,g8,0,no regulation
-g7,g9,0,no regulation
-g8,g1,0,no regulation
-g8,g10,0,no regulation
-g8,g11,0,no regulation
-g8,g12,0,no regulation
-g8,g13,0,no regulation
-g8,g14,0,no regulation
-g8,g15,0,no regulation
-g8,g16,0,no regulation
-g8,g17,0,no regulation
-g8,g18,0,no regulation
-g8,g2,0,no regulation
-g8,g3,0,no regulation
-g8,g4,0,no regulation
-g8,g5,0,no regulation
-g8,g8,0,no regulation
-g8,g9,0,no regulation
-g9,g1,0,no regulation
-g9,g10,0,no regulation
-g9,g11,0,no regulation
-g9,g12,0,no regulation
-g9,g13,0,no regulation
-g9,g14,0,no regulation
-g9,g15,0,no regulation
-g9,g16,0,no regulation
-g9,g17,0,no regulation
-g9,g18,0,no regulation
-g9,g2,0,no regulation
-g9,g3,0,no regulation
-g9,g4,0,no regulation
-g9,g5,0,no regulation
-g9,g9,0,no regulation
+Gene  12 ,Gene  9 ,1,activation/repression
+Gene  12 ,Gene  10 ,0.93556289485754,activation/repression
+Gene  12 ,Gene  7 ,0.746910202469293,activation/repression
+Gene  12 ,Gene  8 ,0.704707338153147,activation/repression
+Gene  13 ,Gene  12 ,0.674151296551103,activation/repression
+Gene  12 ,Gene  6 ,0.564370494680442,activation/repression
+Gene  12 ,Gene  11 ,0.492315207334176,activation/repression
+Gene  12 ,Gene  1 ,0.479652757341732,activation/repression
+Gene  16 ,Gene  15 ,0.382151842690612,activation/repression
+Gene  11 ,Gene  9 ,0.379097438181514,activation/repression
+Gene  13 ,Gene  11 ,0.366016734138757,activation/repression
+Gene  13 ,Gene  7 ,0.34402103167344,activation/repression
+Gene  11 ,Gene  10 ,0.341635316668125,activation/repression
+Gene  12 ,Gene  5 ,0.305078998019581,activation/repression
+Gene  11 ,Gene  7 ,0.300938511584255,activation/repression
+Gene  11 ,Gene  8 ,0.280383086377531,activation/repression
+Gene  12 ,Gene  3 ,0.273650077679066,activation/repression
+Gene  13 ,Gene  10 ,0.26277137963854,activation/repression
+Gene  12 ,Gene  16 ,0.232150152574412,activation/repression
+Gene  12 ,Gene  13 ,0.231254175581201,activation/repression
+Gene  16 ,Gene  14 ,0.219259006662372,activation/repression
+Gene  12 ,Gene  15 ,0.203101595204577,activation/repression
+Gene  11 ,Gene  6 ,0.202309759194895,activation/repression
+Gene  12 ,Gene  2 ,0.190406303934591,activation/repression
+Gene  12 ,Gene  4 ,0.189425854270891,activation/repression
+Gene  11 ,Gene  1 ,0.188188357816821,activation/repression
+Gene  12 ,Gene  14 ,0.180313029404045,activation/repression
+Gene  13 ,Gene  9 ,0.159342382414308,activation/repression
+Gene  12 ,Gene  18 ,0.143653315411474,activation/repression
+Gene  12 ,Gene  17 ,0.131472184001294,activation/repression
+Gene  11 ,Gene  13 ,0.116231470029932,activation/repression
+Gene  11 ,Gene  16 ,0.114299153550039,activation/repression
+Gene  11 ,Gene  15 ,0.11229220684106,activation/repression
+Gene  11 ,Gene  14 ,0.103778801568428,activation/repression
+Gene  11 ,Gene  5 ,0.103516949545723,activation/repression
+Gene  13 ,Gene  1 ,0.0905303037834742,activation/repression
+Gene  11 ,Gene  3 ,0.0869885161575109,activation/repression
+Gene  13 ,Gene  8 ,0.0670850491326721,activation/repression
+Gene  11 ,Gene  4 ,0.0640186191154131,activation/repression
+Gene  11 ,Gene  12 ,0.0603843721914245,activation/repression
+Gene  11 ,Gene  17 ,0.0552834440856538,activation/repression
+Gene  14 ,Gene  13 ,0.0550260286179754,activation/repression
+Gene  13 ,Gene  14 ,0.0524978384739377,activation/repression
+Gene  11 ,Gene  2 ,0.0478768785144475,activation/repression
+Gene  14 ,Gene  12 ,0.0247197969607071,activation/repression
+Gene  11 ,Gene  18 ,0.0216868378721238,activation/repression
+Gene  14 ,Gene  7 ,0.0193569049863067,activation/repression
+Gene  13 ,Gene  6 ,0.0186693818714822,activation/repression
+Gene  7 ,Gene  5 ,0.0124163796368835,activation/repression
+Gene  7 ,Gene  4 ,0.0113669396784272,activation/repression
+Gene  7 ,Gene  3 ,0.00887200816292985,activation/repression
+Gene  7 ,Gene  6 ,0.00725052548943777,activation/repression
+Gene  14 ,Gene  11 ,0.00592065776422813,activation/repression
+Gene  14 ,Gene  8 ,0.00458406996302291,activation/repression
+Gene  14 ,Gene  1 ,0.00401815314250596,activation/repression
+Gene  4 ,Gene  2 ,6.95693513525055e-36,activation/repression
+Gene  2 ,Gene  18 ,6.65090183006623e-36,activation/repression
+Gene  15 ,Gene  14 ,6.43723163481363e-36,activation/repression
+Gene  18 ,Gene  17 ,6.40680453947384e-36,activation/repression
+Gene  17 ,Gene  15 ,5.70439446315144e-36,activation/repression
+Gene  18 ,Gene  16 ,5.6825270202862e-36,activation/repression
+Gene  17 ,Gene  16 ,5.44867394794336e-36,activation/repression
+Gene  5 ,Gene  2 ,4.62493205433747e-36,activation/repression
+Gene  3 ,Gene  2 ,4.59891083846368e-36,activation/repression
+Gene  5 ,Gene  3 ,4.37071181189278e-36,activation/repression
+Gene  6 ,Gene  3 ,4.02142788876175e-36,activation/repression
+Gene  6 ,Gene  4 ,3.9192773040833e-36,activation/repression
+Gene  6 ,Gene  5 ,3.64441385092195e-36,activation/repression
+Gene  3 ,Gene  18 ,3.49513850602663e-36,activation/repression
+Gene  4 ,Gene  3 ,3.46117314442488e-36,activation/repression
+Gene  8 ,Gene  5 ,2.88273143226966e-36,activation/repression
+Gene  8 ,Gene  4 ,2.86888352772805e-36,activation/repression
+Gene  5 ,Gene  4 ,2.13249472656603e-36,activation/repression
+Gene  8 ,Gene  3 ,1.93143184869894e-36,activation/repression
+Gene  9 ,Gene  5 ,1.78810414190575e-36,activation/repression
+Gene  9 ,Gene  4 ,1.70236760233974e-36,activation/repression
+Gene  2 ,Gene  17 ,1.48956013373405e-36,activation/repression
+Gene  15 ,Gene  13 ,1.28861832281289e-36,activation/repression
+Gene  9 ,Gene  3 ,1.27794508479279e-36,activation/repression
+Gene  6 ,Gene  2 ,1.23921941874491e-36,activation/repression
+Gene  10 ,Gene  16 ,7.29622265838628e-37,activation/repression
+Gene  8 ,Gene  6 ,7.20878071038323e-37,activation/repression
+Gene  9 ,Gene  6 ,7.17276329396545e-37,activation/repression
+Gene  5 ,Gene  6 ,6.15318564273263e-37,activation/repression
+Gene  1 ,Gene  12 ,5.89863540809344e-37,activation/repression
+Gene  10 ,Gene  17 ,4.78494765289347e-37,activation/repression
+Gene  10 ,Gene  4 ,4.06162376028785e-37,activation/repression
+Gene  10 ,Gene  5 ,3.99889732014936e-37,activation/repression
+Gene  10 ,Gene  3 ,2.59490244716777e-37,activation/repression
+Gene  10 ,Gene  6 ,1.98132713721785e-37,activation/repression
+Gene  18 ,Gene  15 ,9.91633151295847e-38,activation/repression
+Gene  10 ,Gene  15 ,8.71658949225363e-38,activation/repression
+Gene  1 ,Gene  14 ,5.70827658347404e-38,activation/repression
+Gene  4 ,Gene  9 ,3.38345340072696e-38,activation/repression
+Gene  5 ,Gene  9 ,3.00283298400239e-38,activation/repression
+Gene  2 ,Gene  10 ,2.99090205587624e-38,activation/repression
+Gene  1 ,Gene  18 ,1.72691053495721e-38,activation/repression
+Gene  1 ,Gene  1 ,0,no regulation
+Gene  1 ,Gene  2 ,0,no regulation
+Gene  1 ,Gene  3 ,0,no regulation
+Gene  1 ,Gene  4 ,0,no regulation
+Gene  1 ,Gene  5 ,0,no regulation
+Gene  1 ,Gene  6 ,0,no regulation
+Gene  1 ,Gene  7 ,0,no regulation
+Gene  1 ,Gene  8 ,0,no regulation
+Gene  1 ,Gene  9 ,0,no regulation
+Gene  1 ,Gene  10 ,0,no regulation
+Gene  1 ,Gene  11 ,0,no regulation
+Gene  1 ,Gene  13 ,0,no regulation
+Gene  1 ,Gene  15 ,0,no regulation
+Gene  1 ,Gene  16 ,0,no regulation
+Gene  1 ,Gene  17 ,0,no regulation
+Gene  2 ,Gene  1 ,0,no regulation
+Gene  2 ,Gene  2 ,0,no regulation
+Gene  2 ,Gene  3 ,0,no regulation
+Gene  2 ,Gene  4 ,0,no regulation
+Gene  2 ,Gene  5 ,0,no regulation
+Gene  2 ,Gene  6 ,0,no regulation
+Gene  2 ,Gene  7 ,0,no regulation
+Gene  2 ,Gene  8 ,0,no regulation
+Gene  2 ,Gene  9 ,0,no regulation
+Gene  2 ,Gene  11 ,0,no regulation
+Gene  2 ,Gene  12 ,0,no regulation
+Gene  2 ,Gene  13 ,0,no regulation
+Gene  2 ,Gene  14 ,0,no regulation
+Gene  2 ,Gene  15 ,0,no regulation
+Gene  2 ,Gene  16 ,0,no regulation
+Gene  3 ,Gene  1 ,0,no regulation
+Gene  3 ,Gene  3 ,0,no regulation
+Gene  3 ,Gene  4 ,0,no regulation
+Gene  3 ,Gene  5 ,0,no regulation
+Gene  3 ,Gene  6 ,0,no regulation
+Gene  3 ,Gene  7 ,0,no regulation
+Gene  3 ,Gene  8 ,0,no regulation
+Gene  3 ,Gene  9 ,0,no regulation
+Gene  3 ,Gene  10 ,0,no regulation
+Gene  3 ,Gene  11 ,0,no regulation
+Gene  3 ,Gene  12 ,0,no regulation
+Gene  3 ,Gene  13 ,0,no regulation
+Gene  3 ,Gene  14 ,0,no regulation
+Gene  3 ,Gene  15 ,0,no regulation
+Gene  3 ,Gene  16 ,0,no regulation
+Gene  3 ,Gene  17 ,0,no regulation
+Gene  4 ,Gene  1 ,0,no regulation
+Gene  4 ,Gene  4 ,0,no regulation
+Gene  4 ,Gene  5 ,0,no regulation
+Gene  4 ,Gene  6 ,0,no regulation
+Gene  4 ,Gene  7 ,0,no regulation
+Gene  4 ,Gene  8 ,0,no regulation
+Gene  4 ,Gene  10 ,0,no regulation
+Gene  4 ,Gene  11 ,0,no regulation
+Gene  4 ,Gene  12 ,0,no regulation
+Gene  4 ,Gene  13 ,0,no regulation
+Gene  4 ,Gene  14 ,0,no regulation
+Gene  4 ,Gene  15 ,0,no regulation
+Gene  4 ,Gene  16 ,0,no regulation
+Gene  4 ,Gene  17 ,0,no regulation
+Gene  4 ,Gene  18 ,0,no regulation
+Gene  5 ,Gene  1 ,0,no regulation
+Gene  5 ,Gene  5 ,0,no regulation
+Gene  5 ,Gene  7 ,0,no regulation
+Gene  5 ,Gene  8 ,0,no regulation
+Gene  5 ,Gene  10 ,0,no regulation
+Gene  5 ,Gene  11 ,0,no regulation
+Gene  5 ,Gene  12 ,0,no regulation
+Gene  5 ,Gene  13 ,0,no regulation
+Gene  5 ,Gene  14 ,0,no regulation
+Gene  5 ,Gene  15 ,0,no regulation
+Gene  5 ,Gene  16 ,0,no regulation
+Gene  5 ,Gene  17 ,0,no regulation
+Gene  5 ,Gene  18 ,0,no regulation
+Gene  6 ,Gene  1 ,0,no regulation
+Gene  6 ,Gene  6 ,0,no regulation
+Gene  6 ,Gene  7 ,0,no regulation
+Gene  6 ,Gene  8 ,0,no regulation
+Gene  6 ,Gene  9 ,0,no regulation
+Gene  6 ,Gene  10 ,0,no regulation
+Gene  6 ,Gene  11 ,0,no regulation
+Gene  6 ,Gene  12 ,0,no regulation
+Gene  6 ,Gene  13 ,0,no regulation
+Gene  6 ,Gene  14 ,0,no regulation
+Gene  6 ,Gene  15 ,0,no regulation
+Gene  6 ,Gene  16 ,0,no regulation
+Gene  6 ,Gene  17 ,0,no regulation
+Gene  6 ,Gene  18 ,0,no regulation
+Gene  7 ,Gene  1 ,0,no regulation
+Gene  7 ,Gene  2 ,0,no regulation
+Gene  7 ,Gene  7 ,0,no regulation
+Gene  7 ,Gene  8 ,0,no regulation
+Gene  7 ,Gene  9 ,0,no regulation
+Gene  7 ,Gene  10 ,0,no regulation
+Gene  7 ,Gene  11 ,0,no regulation
+Gene  7 ,Gene  12 ,0,no regulation
+Gene  7 ,Gene  13 ,0,no regulation
+Gene  7 ,Gene  14 ,0,no regulation
+Gene  7 ,Gene  15 ,0,no regulation
+Gene  7 ,Gene  16 ,0,no regulation
+Gene  7 ,Gene  17 ,0,no regulation
+Gene  7 ,Gene  18 ,0,no regulation
+Gene  8 ,Gene  1 ,0,no regulation
+Gene  8 ,Gene  2 ,0,no regulation
+Gene  8 ,Gene  7 ,0,no regulation
+Gene  8 ,Gene  8 ,0,no regulation
+Gene  8 ,Gene  9 ,0,no regulation
+Gene  8 ,Gene  10 ,0,no regulation
+Gene  8 ,Gene  11 ,0,no regulation
+Gene  8 ,Gene  12 ,0,no regulation
+Gene  8 ,Gene  13 ,0,no regulation
+Gene  8 ,Gene  14 ,0,no regulation
+Gene  8 ,Gene  15 ,0,no regulation
+Gene  8 ,Gene  16 ,0,no regulation
+Gene  8 ,Gene  17 ,0,no regulation
+Gene  8 ,Gene  18 ,0,no regulation
+Gene  9 ,Gene  1 ,0,no regulation
+Gene  9 ,Gene  2 ,0,no regulation
+Gene  9 ,Gene  7 ,0,no regulation
+Gene  9 ,Gene  8 ,0,no regulation
+Gene  9 ,Gene  9 ,0,no regulation
+Gene  9 ,Gene  10 ,0,no regulation
+Gene  9 ,Gene  11 ,0,no regulation
+Gene  9 ,Gene  12 ,0,no regulation
+Gene  9 ,Gene  13 ,0,no regulation
+Gene  9 ,Gene  14 ,0,no regulation
+Gene  9 ,Gene  15 ,0,no regulation
+Gene  9 ,Gene  16 ,0,no regulation
+Gene  9 ,Gene  17 ,0,no regulation
+Gene  9 ,Gene  18 ,0,no regulation
+Gene  10 ,Gene  1 ,0,no regulation
+Gene  10 ,Gene  2 ,0,no regulation
+Gene  10 ,Gene  7 ,0,no regulation
+Gene  10 ,Gene  8 ,0,no regulation
+Gene  10 ,Gene  9 ,0,no regulation
+Gene  10 ,Gene  10 ,0,no regulation
+Gene  10 ,Gene  11 ,0,no regulation
+Gene  10 ,Gene  12 ,0,no regulation
+Gene  10 ,Gene  13 ,0,no regulation
+Gene  10 ,Gene  14 ,0,no regulation
+Gene  10 ,Gene  18 ,0,no regulation
+Gene  11 ,Gene  11 ,0,no regulation
+Gene  12 ,Gene  12 ,0,no regulation
+Gene  13 ,Gene  2 ,0,no regulation
+Gene  13 ,Gene  3 ,0,no regulation
+Gene  13 ,Gene  4 ,0,no regulation
+Gene  13 ,Gene  5 ,0,no regulation
+Gene  13 ,Gene  13 ,0,no regulation
+Gene  13 ,Gene  15 ,0,no regulation
+Gene  13 ,Gene  16 ,0,no regulation
+Gene  13 ,Gene  17 ,0,no regulation
+Gene  13 ,Gene  18 ,0,no regulation
+Gene  14 ,Gene  2 ,0,no regulation
+Gene  14 ,Gene  3 ,0,no regulation
+Gene  14 ,Gene  4 ,0,no regulation
+Gene  14 ,Gene  5 ,0,no regulation
+Gene  14 ,Gene  6 ,0,no regulation
+Gene  14 ,Gene  9 ,0,no regulation
+Gene  14 ,Gene  10 ,0,no regulation
+Gene  14 ,Gene  14 ,0,no regulation
+Gene  14 ,Gene  15 ,0,no regulation
+Gene  14 ,Gene  16 ,0,no regulation
+Gene  14 ,Gene  17 ,0,no regulation
+Gene  14 ,Gene  18 ,0,no regulation
+Gene  15 ,Gene  1 ,0,no regulation
+Gene  15 ,Gene  2 ,0,no regulation
+Gene  15 ,Gene  3 ,0,no regulation
+Gene  15 ,Gene  4 ,0,no regulation
+Gene  15 ,Gene  5 ,0,no regulation
+Gene  15 ,Gene  6 ,0,no regulation
+Gene  15 ,Gene  7 ,0,no regulation
+Gene  15 ,Gene  8 ,0,no regulation
+Gene  15 ,Gene  9 ,0,no regulation
+Gene  15 ,Gene  10 ,0,no regulation
+Gene  15 ,Gene  11 ,0,no regulation
+Gene  15 ,Gene  12 ,0,no regulation
+Gene  15 ,Gene  15 ,0,no regulation
+Gene  15 ,Gene  16 ,0,no regulation
+Gene  15 ,Gene  17 ,0,no regulation
+Gene  15 ,Gene  18 ,0,no regulation
+Gene  16 ,Gene  1 ,0,no regulation
+Gene  16 ,Gene  2 ,0,no regulation
+Gene  16 ,Gene  3 ,0,no regulation
+Gene  16 ,Gene  4 ,0,no regulation
+Gene  16 ,Gene  5 ,0,no regulation
+Gene  16 ,Gene  6 ,0,no regulation
+Gene  16 ,Gene  7 ,0,no regulation
+Gene  16 ,Gene  8 ,0,no regulation
+Gene  16 ,Gene  9 ,0,no regulation
+Gene  16 ,Gene  10 ,0,no regulation
+Gene  16 ,Gene  11 ,0,no regulation
+Gene  16 ,Gene  12 ,0,no regulation
+Gene  16 ,Gene  13 ,0,no regulation
+Gene  16 ,Gene  16 ,0,no regulation
+Gene  16 ,Gene  17 ,0,no regulation
+Gene  16 ,Gene  18 ,0,no regulation
+Gene  17 ,Gene  1 ,0,no regulation
+Gene  17 ,Gene  2 ,0,no regulation
+Gene  17 ,Gene  3 ,0,no regulation
+Gene  17 ,Gene  4 ,0,no regulation
+Gene  17 ,Gene  5 ,0,no regulation
+Gene  17 ,Gene  6 ,0,no regulation
+Gene  17 ,Gene  7 ,0,no regulation
+Gene  17 ,Gene  8 ,0,no regulation
+Gene  17 ,Gene  9 ,0,no regulation
+Gene  17 ,Gene  10 ,0,no regulation
+Gene  17 ,Gene  11 ,0,no regulation
+Gene  17 ,Gene  12 ,0,no regulation
+Gene  17 ,Gene  13 ,0,no regulation
+Gene  17 ,Gene  14 ,0,no regulation
+Gene  17 ,Gene  17 ,0,no regulation
+Gene  17 ,Gene  18 ,0,no regulation
+Gene  18 ,Gene  1 ,0,no regulation
+Gene  18 ,Gene  2 ,0,no regulation
+Gene  18 ,Gene  3 ,0,no regulation
+Gene  18 ,Gene  4 ,0,no regulation
+Gene  18 ,Gene  5 ,0,no regulation
+Gene  18 ,Gene  6 ,0,no regulation
+Gene  18 ,Gene  7 ,0,no regulation
+Gene  18 ,Gene  8 ,0,no regulation
+Gene  18 ,Gene  9 ,0,no regulation
+Gene  18 ,Gene  10 ,0,no regulation
+Gene  18 ,Gene  11 ,0,no regulation
+Gene  18 ,Gene  12 ,0,no regulation
+Gene  18 ,Gene  13 ,0,no regulation
+Gene  18 ,Gene  14 ,0,no regulation
+Gene  18 ,Gene  18 ,0,no regulation

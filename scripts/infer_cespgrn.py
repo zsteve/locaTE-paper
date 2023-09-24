@@ -27,6 +27,7 @@ cespgrn = cg.G_admm_minibatch(X=counts[:, None, :], K=K, pre_cov=empir_cov, batc
 thetas = cespgrn.train(max_iters=2500, n_intervals=100, lamb=args.lamda)
 
 np.save(args.outdir + "G_cespgrn.npy", thetas.reshape(thetas.shape[0], -1))
+np.save(args.outdir + "G_static_cespgrn.npy", thetas.mean(0))
 
 
 

@@ -1,50 +1,50 @@
 SourceGENES,TargetGENES,Interaction,Edges
-g8,g7,1,activation/repression
-g2,g1,0.530748384942299,activation/repression
-g3,g2,0.305958353176252,activation/repression
-g2,g8,0.271956489807358,activation/repression
-g7,g6,0.178032762051487,activation/repression
-g7,g4,0.108410508615532,activation/repression
-g8,g6,0.0641029353771463,activation/repression
-g3,g8,0.0493063021671994,activation/repression
-g7,g8,0.0436247941217327,activation/repression
-g8,g3,0.0204305886845839,activation/repression
-g6,g3,5.79437935312663e-37,activation/repression
-g4,g3,5.11246690586139e-37,activation/repression
-g4,g7,4.51394121718614e-37,activation/repression
-g1,g6,3.75985744702122e-37,activation/repression
-g4,g6,3.48779402401215e-37,activation/repression
-g6,g4,2.02250998184735e-37,activation/repression
-g1,g4,1.99446230884536e-37,activation/repression
-g6,g7,1.77533783588871e-37,activation/repression
-g1,g1,0,no regulation
-g1,g2,0,no regulation
-g1,g3,0,no regulation
-g1,g7,0,no regulation
-g1,g8,0,no regulation
-g2,g2,0,no regulation
-g2,g3,0,no regulation
-g2,g4,0,no regulation
-g2,g6,0,no regulation
-g2,g7,0,no regulation
-g3,g1,0,no regulation
-g3,g3,0,no regulation
-g3,g4,0,no regulation
-g3,g6,0,no regulation
-g3,g7,0,no regulation
-g4,g1,0,no regulation
-g4,g2,0,no regulation
-g4,g4,0,no regulation
-g4,g8,0,no regulation
-g6,g1,0,no regulation
-g6,g2,0,no regulation
-g6,g6,0,no regulation
-g6,g8,0,no regulation
-g7,g1,0,no regulation
-g7,g2,0,no regulation
-g7,g3,0,no regulation
-g7,g7,0,no regulation
-g8,g1,0,no regulation
-g8,g2,0,no regulation
-g8,g4,0,no regulation
-g8,g8,0,no regulation
+Gene  7 ,Gene  6 ,1,activation/repression
+Gene  2 ,Gene  1 ,0.530748384942299,activation/repression
+Gene  3 ,Gene  2 ,0.305958353176252,activation/repression
+Gene  2 ,Gene  7 ,0.271956489807358,activation/repression
+Gene  6 ,Gene  5 ,0.178032762051487,activation/repression
+Gene  6 ,Gene  4 ,0.108410508615532,activation/repression
+Gene  7 ,Gene  5 ,0.0641029353771463,activation/repression
+Gene  3 ,Gene  7 ,0.0493063021671994,activation/repression
+Gene  6 ,Gene  7 ,0.0436247941217327,activation/repression
+Gene  7 ,Gene  3 ,0.0204305886845839,activation/repression
+Gene  5 ,Gene  3 ,5.79437935312663e-37,activation/repression
+Gene  4 ,Gene  3 ,5.11246690586139e-37,activation/repression
+Gene  4 ,Gene  6 ,4.51394121718614e-37,activation/repression
+Gene  1 ,Gene  5 ,3.75985744702122e-37,activation/repression
+Gene  4 ,Gene  5 ,3.48779402401215e-37,activation/repression
+Gene  5 ,Gene  4 ,2.02250998184735e-37,activation/repression
+Gene  1 ,Gene  4 ,1.99446230884536e-37,activation/repression
+Gene  5 ,Gene  6 ,1.77533783588871e-37,activation/repression
+Gene  1 ,Gene  1 ,0,no regulation
+Gene  1 ,Gene  2 ,0,no regulation
+Gene  1 ,Gene  3 ,0,no regulation
+Gene  1 ,Gene  6 ,0,no regulation
+Gene  1 ,Gene  7 ,0,no regulation
+Gene  2 ,Gene  2 ,0,no regulation
+Gene  2 ,Gene  3 ,0,no regulation
+Gene  2 ,Gene  4 ,0,no regulation
+Gene  2 ,Gene  5 ,0,no regulation
+Gene  2 ,Gene  6 ,0,no regulation
+Gene  3 ,Gene  1 ,0,no regulation
+Gene  3 ,Gene  3 ,0,no regulation
+Gene  3 ,Gene  4 ,0,no regulation
+Gene  3 ,Gene  5 ,0,no regulation
+Gene  3 ,Gene  6 ,0,no regulation
+Gene  4 ,Gene  1 ,0,no regulation
+Gene  4 ,Gene  2 ,0,no regulation
+Gene  4 ,Gene  4 ,0,no regulation
+Gene  4 ,Gene  7 ,0,no regulation
+Gene  5 ,Gene  1 ,0,no regulation
+Gene  5 ,Gene  2 ,0,no regulation
+Gene  5 ,Gene  5 ,0,no regulation
+Gene  5 ,Gene  7 ,0,no regulation
+Gene  6 ,Gene  1 ,0,no regulation
+Gene  6 ,Gene  2 ,0,no regulation
+Gene  6 ,Gene  3 ,0,no regulation
+Gene  6 ,Gene  6 ,0,no regulation
+Gene  7 ,Gene  1 ,0,no regulation
+Gene  7 ,Gene  2 ,0,no regulation
+Gene  7 ,Gene  4 ,0,no regulation
+Gene  7 ,Gene  7 ,0,no regulation

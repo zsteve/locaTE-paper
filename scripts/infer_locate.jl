@@ -94,9 +94,20 @@ w ./= mean(w)
 @info "Applying CLR"
 TE_clr = apply_wclr(TE, size(X, 2))
 TE_clr[isnan.(TE_clr)] .= 0
-@info "Denoising"
+# @info "Denoising"
 G = fitsp(TE_clr, L; λ1 = args["lambda1"], λ2 = args["lambda2"], maxiter = Nq)
 
+# CDF normalization
+A = reshape(maximum(G; dims = 1), size(X, 2), size(X, 2))
+G_cdf = apply_cdf_norm(G, A .+ 1e-9);
+# Static
+cdf_norm2(x) = cdf_norm(x, x .+ 1e-9)
+G_static=reshape(mean(G; dims = 1), size(X, 2), size(X, 2))
+G_static_cdf=cdf_norm2(G_static)
+
 npzwrite(string(args["outdir"], "G_$(args["suffix"]).npy"), G)
+npzwrite(string(args["outdir"], "G_cdf_$(args["suffix"]).npy"), G_cdf)
+npzwrite(string(args["outdir"], "G_static_$(args["suffix"]).npy"), G_static)
+npzwrite(string(args["outdir"], "G_static_cdf_$(args["suffix"]).npy"), G_static_cdf)
 npzwrite(string(args["outdir"], "TE_$(args["suffix"]).npy"), TE)
 npzwrite(string(args["outdir"], "TE_clr_$(args["suffix"]).npy"), TE_clr)

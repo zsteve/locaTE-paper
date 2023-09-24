@@ -1,14 +1,8 @@
 # Data
 data/simulated/Synthetic_1000/*.out
 data/simulated/Synthetic_10k
-data/simulated/Synthetic_1000/dyn-BF
-data/simulated/Synthetic_1000/dyn-BFC
-data/simulated/Synthetic_1000/dyn-BFStrange
-data/simulated/Synthetic_1000/dyn-CY
-data/simulated/Synthetic_1000/dyn-LI
-data/simulated/Synthetic_1000/dyn-LL
-data/simulated/Synthetic_1000/dyn-SW
-data/simulated/Synthetic_1000/dyn-TF
+locate_output_*
+cespgrn_output_*
 examples/cellcycle_metabolic/data/*
 examples/HSPC_metabolic/data/*
 

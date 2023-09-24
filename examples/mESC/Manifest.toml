@@ -924,11 +924,11 @@ version = "5.1.1+0"
 
 [[deps.locaTE]]
 deps = ["CUDA", "Discretizers", "Distributions", "Documenter", "EvalMetrics", "GraphSignals", "Graphs", "InformationMeasures", "LinearAlgebra", "LogExpFunctions", "MultivariateStats", "NMF", "NNlib", "NearestNeighbors", "ProgressBars", "ProgressMeter", "PyCall", "SparseArrays", "StatsBase", "TSVD", "TensorToolbox"]
-git-tree-sha1 = "f276fccaa0eaed1c4f7b2dd05d32e8662e0807a3"
+git-tree-sha1 = "1680bc0b396a47439cd592b2c50c9c76e41f87c7"
 repo-rev = "main"
 repo-url = "https://github.com/zsteve/locaTE.jl"
 uuid = "d47a2e43-82e6-47ba-a340-eddb77145d33"
-version = "0.3.5"
+version = "0.3.6"
 
 [[deps.nghttp2_jll]]
 deps = ["Artifacts", "Libdl"]

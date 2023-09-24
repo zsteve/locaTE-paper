@@ -1,5 +1,12 @@
 rm_diag(A) = A - Diagonal(diag(A))
-preprocess_cespgrn(x) = abs.(hcat([vec(rm_diag(reshape(x, Ng, Ng))) for x in eachrow(x)]...)')
+
+function preprocess_cespgrn(x)
+    if size(x) == (Ng, Ng)
+        return abs.(rm_diag(x))
+    else
+        return abs.(hcat([vec(rm_diag(reshape(x, Ng, Ng))) for x in eachrow(x)]...)')
+    end
+end
 
 Nq = 128
 
@@ -22,7 +29,7 @@ function process_dataset(dir)
                 "J_symm_mat" => J_symm_mat)
 end
 
-function load_job_data(dir; locate_prefix = "locate", cespgrn_prefix = "cespgrn")
+function load_job_data(dir, Ng; locate_prefix = "locate", cespgrn_prefix = "cespgrn", locate_what = "G_cdf", cespgrn_what = "G")
     files = Dict("locaTE_velo_dot" => glob(string(dir, "/$(locate_prefix)_output*")), 
                 "locaTE_velo_cos"  => glob(string(dir, "/$(locate_prefix)_output*")), 
                 "locaTE_velo_corr" => glob(string(dir, "/$(locate_prefix)_output*")),
@@ -33,14 +40,14 @@ function load_job_data(dir; locate_prefix = "locate", cespgrn_prefix = "cespgrn"
                  "cespgrn"        => glob(string(dir, "/$(cespgrn_prefix)_output*")))
     params = Dict(k => map(x -> map(x -> parse(Float64, x), split(x, "_")[[end-2, end-1, end]]), v) for (k, v) in files)
     all_nans = fill(NaN, Nc, Ng*Ng)
-    outputs = Dict( "locaTE_velo_dot"  => map(x -> try npzread(string(x, "/G_velo_dot.npy")) catch _ all_nans end, files["locaTE_velo_dot"]),
-                    "locaTE_velo_cos"  => map(x -> try npzread(string(x, "/G_velo_cos.npy")) catch _ all_nans end, files["locaTE_velo_cos"]),
-                    "locaTE_velo_corr" => map(x -> try npzread(string(x, "/G_velo_corr.npy")) catch _ all_nans end, files["locaTE_velo_corr"]),
-                    "locaTE_dpt"       => map(x -> try npzread(string(x, "/G_dpt.npy")) catch _ all_nans end, files["locaTE_dpt"]),
-                    "locaTE_statot"    => map(x -> try npzread(string(x, "/G_statot.npy")) catch _ all_nans end, files["locaTE_statot"]),
-                    "locaTE_statot_ent"    => map(x -> try npzread(string(x, "/G_statot_ent.npy")) catch _ all_nans end, files["locaTE_statot_ent"]),
-                    "locaTE_pba"       => map(x -> try npzread(string(x, "/G_pba.npy")) catch _ all_nans end, files["locaTE_pba"]),
-                    "cespgrn"         => map(x -> try preprocess_cespgrn(npzread(string(x, "/G_cespgrn.npy"))) catch _  all_nans end, files["cespgrn"]))
+    outputs = Dict( "locaTE_velo_dot"  => map(x -> try npzread(string(x, "/$(locate_what)_velo_dot.npy")) catch _ all_nans end, files["locaTE_velo_dot"]),
+                   "locaTE_velo_cos"  => map(x -> try npzread(string(x, "/$(locate_what)_velo_cos.npy")) catch _ all_nans end, files["locaTE_velo_cos"]),
+                   "locaTE_velo_corr" => map(x -> try npzread(string(x, "/$(locate_what)_velo_corr.npy")) catch _ all_nans end, files["locaTE_velo_corr"]),
+                   "locaTE_dpt"       => map(x -> try npzread(string(x, "/$(locate_what)_dpt.npy")) catch _ all_nans end, files["locaTE_dpt"]),
+                   "locaTE_statot"    => map(x -> try npzread(string(x, "/$(locate_what)_statot.npy")) catch _ all_nans end, files["locaTE_statot"]),
+                   "locaTE_statot_ent"=> map(x -> try npzread(string(x, "/$(locate_what)_statot_ent.npy")) catch _ all_nans end, files["locaTE_statot_ent"]),
+                   "locaTE_pba"       => map(x -> try npzread(string(x, "/$(locate_what)_pba.npy")) catch _ all_nans end, files["locaTE_pba"]),
+                   "cespgrn"         => map(x -> try preprocess_cespgrn(npzread(string(x, "/$(cespgrn_what)_cespgrn.npy"))) catch _  all_nans end, files["cespgrn"]))
     return Dict("files" => files, "params" => params, "outputs" => outputs)
 end
 
@@ -100,7 +107,8 @@ function process_scode(path, J)
 end
 
 function process_locate(G, J; what = :aupr, kwargs...)
-    G_static = reshape(mean(G; dims = 1), size(J, 1), size(J, 2))
+    # G_static = reshape(mean(G; dims = 1), size(J, 1), size(J, 2))
+    G_static = G
     p, r = collect(eachcol(prec_rec_rate(J, G_static, 512)))
     if what == :aupr
         G_static, aupr(p, r)
@@ -121,4 +129,24 @@ function process_pidc(path, J)
     G_pidc = Array(npzread(path));
     p, r = collect(eachcol(prec_rec_rate(J, G_pidc, 512)))
     G_pidc, aupr(p, r)
+end
+
+function process_grisli(path, J)
+    G_grisli = (-1)*abs.(Array(CSV.read(path, DataFrame; header = false)));
+    # compute AUPR w.r.t ground truth
+    p, r = collect(eachcol(prec_rec_rate(J, G_grisli, 512)))
+    G_grisli, aupr(p, r)
+end
+
+function process_sincerities(path, J)
+    df_sincerities = CSV.read(path, DataFrame)
+    G_sincerities = zeros(Ng, Ng)
+    for (source, target, score, _) in eachrow(df_sincerities)
+        i = parse(Int, split(source, "Gene ")[end])
+        j = parse(Int, split(target, "Gene ")[end])
+        G_sincerities[i, j] = score
+    end
+    # compute AUPR w.r.t ground truth
+    p, r = collect(eachcol(prec_rec_rate(J, G_sincerities, 512)))
+    G_sincerities, aupr(p, r)
 end
