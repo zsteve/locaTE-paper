@@ -1,5 +1,7 @@
 # Data
 data/simulated/Synthetic_1000/*.out
+data/simulated/Synthetic_1000_noise/*.out
+data/simulated/Synthetic_1000_noise/dyn*/dyn-*_noise_*_dropout_*
 data/simulated/Synthetic_10k
 locate_output_*
 cespgrn_output_*

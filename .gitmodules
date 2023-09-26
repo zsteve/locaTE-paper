@@ -31,3 +31,9 @@
 [submodule "tools/velocity_package"]
 	path = tools/velocity_package
 	url = https://github.com/HaghverdiLab/velocity_package
+[submodule "data/tools/GENIE3"]
+	path = data/tools/GENIE3
+	url = https://github.com/vahuynh/GENIE3
+[submodule "data/tools/SINCERITIES"]
+	path = data/tools/SINCERITIES
+	url = https://github.com/zsteve/SINCERITIES
