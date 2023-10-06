@@ -1,0 +1,641 @@
+  Activating project at `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/pidc_env`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/pidc_env/Project.toml`
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/pidc_env/Manifest.toml`
+Getting nodes...
+Inferring network...
+cat: write error: Broken pipe
+2023-10-04 23:31:26.379585
+2023-10-04 23:31:26.694485
+
+real	0m1.476s
+user	0m0.008s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:31:33.042944
+2023-10-04 23:31:33.144238
+
+real	0m1.026s
+user	0m0.007s
+sys	0m0.010s
+cat: write error: Broken pipe
+Traceback (most recent call last):
+  File "infodynamics.measures.continuous.TransferEntropyCommon.java", line -1, in infodynamics.measures.continuous.TransferEntropyCommon.setObservations
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/tenet/runTE.py", line 67, in <module>
+    teCalc.setObservations(JArray(JDouble, 1)(expression_data[0]), JArray(JDouble, 1)(expression_data[1]))
+java.lang.java.lang.ArrayIndexOutOfBoundsException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+real	0m0.813s
+user	0m0.008s
+sys	0m0.008s
+cat: 'outputs/*.csv': No such file or directory
+cat: write error: Broken pipe
+2023-10-04 23:31:45.238809
+2023-10-04 23:31:45.528829
+
+real	0m1.387s
+user	0m0.005s
+sys	0m0.011s
+cat: write error: Broken pipe
+2023-10-04 23:31:51.763095
+2023-10-04 23:31:51.859306
+
+real	0m0.970s
+user	0m0.007s
+sys	0m0.009s
+cat: write error: Broken pipe
+Traceback (most recent call last):
+  File "infodynamics.measures.continuous.TransferEntropyCommon.java", line -1, in infodynamics.measures.continuous.TransferEntropyCommon.setObservations
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/tenet/runTE.py", line 67, in <module>
+    teCalc.setObservations(JArray(JDouble, 1)(expression_data[0]), JArray(JDouble, 1)(expression_data[1]))
+java.lang.java.lang.ArrayIndexOutOfBoundsException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+real	0m0.775s
+user	0m0.010s
+sys	0m0.007s
+cat: 'outputs/*.csv': No such file or directory
+cat: write error: Broken pipe
+2023-10-04 23:32:03.900416
+2023-10-04 23:32:04.180795
+
+real	0m1.341s
+user	0m0.009s
+sys	0m0.008s
+cat: write error: Broken pipe
+2023-10-04 23:32:10.391406
+2023-10-04 23:32:10.495814
+
+real	0m0.976s
+user	0m0.008s
+sys	0m0.008s
+cat: write error: Broken pipe
+Traceback (most recent call last):
+  File "infodynamics.measures.continuous.TransferEntropyCommon.java", line -1, in infodynamics.measures.continuous.TransferEntropyCommon.setObservations
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/tenet/runTE.py", line 67, in <module>
+    teCalc.setObservations(JArray(JDouble, 1)(expression_data[0]), JArray(JDouble, 1)(expression_data[1]))
+java.lang.java.lang.ArrayIndexOutOfBoundsException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+real	0m0.774s
+user	0m0.007s
+sys	0m0.009s
+cat: 'outputs/*.csv': No such file or directory
+cat: write error: Broken pipe
+2023-10-04 23:32:22.558971
+2023-10-04 23:32:22.861993
+
+real	0m1.405s
+user	0m0.007s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:32:29.136882
+2023-10-04 23:32:29.273448
+
+real	0m1.069s
+user	0m0.009s
+sys	0m0.008s
+cat: write error: Broken pipe
+Traceback (most recent call last):
+  File "infodynamics.measures.continuous.TransferEntropyCommon.java", line -1, in infodynamics.measures.continuous.TransferEntropyCommon.setObservations
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/tenet/runTE.py", line 67, in <module>
+    teCalc.setObservations(JArray(JDouble, 1)(expression_data[0]), JArray(JDouble, 1)(expression_data[1]))
+java.lang.java.lang.ArrayIndexOutOfBoundsException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+real	0m0.766s
+user	0m0.008s
+sys	0m0.009s
+cat: 'outputs/*.csv': No such file or directory
+cat: write error: Broken pipe
+2023-10-04 23:32:41.313103
+2023-10-04 23:32:41.688415
+
+real	0m1.491s
+user	0m0.008s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:32:48.058314
+2023-10-04 23:32:48.482929
+
+real	0m1.459s
+user	0m0.007s
+sys	0m0.010s
+cat: write error: Broken pipe
+Traceback (most recent call last):
+  File "infodynamics.measures.continuous.TransferEntropyCommon.java", line -1, in infodynamics.measures.continuous.TransferEntropyCommon.setObservations
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/tenet/runTE.py", line 67, in <module>
+    teCalc.setObservations(JArray(JDouble, 1)(expression_data[0]), JArray(JDouble, 1)(expression_data[1]))
+java.lang.java.lang.ArrayIndexOutOfBoundsException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+real	0m0.794s
+user	0m0.006s
+sys	0m0.010s
+cat: 'outputs/*.csv': No such file or directory
+cat: write error: Broken pipe
+2023-10-04 23:33:00.670733
+2023-10-04 23:33:01.418270
+
+real	0m2.285s
+user	0m0.010s
+sys	0m0.007s
+cat: write error: Broken pipe
+2023-10-04 23:33:08.147493
+2023-10-04 23:33:08.520064
+
+real	0m1.447s
+user	0m0.007s
+sys	0m0.009s
+cat: write error: Broken pipe
+Traceback (most recent call last):
+  File "infodynamics.measures.continuous.TransferEntropyCommon.java", line -1, in infodynamics.measures.continuous.TransferEntropyCommon.setObservations
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/tenet/runTE.py", line 67, in <module>
+    teCalc.setObservations(JArray(JDouble, 1)(expression_data[0]), JArray(JDouble, 1)(expression_data[1]))
+java.lang.java.lang.ArrayIndexOutOfBoundsException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+real	0m0.768s
+user	0m0.010s
+sys	0m0.007s
+cat: 'outputs/*.csv': No such file or directory
+cat: write error: Broken pipe
+2023-10-04 23:33:20.885640
+2023-10-04 23:33:22.913083
+
+real	0m4.370s
+user	0m0.007s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:33:30.296482
+2023-10-04 23:33:31.058801
+
+real	0m2.409s
+user	0m0.008s
+sys	0m0.010s
+cat: write error: Broken pipe
+Traceback (most recent call last):
+  File "infodynamics.measures.continuous.TransferEntropyCommon.java", line -1, in infodynamics.measures.continuous.TransferEntropyCommon.setObservations
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/tenet/runTE.py", line 67, in <module>
+    teCalc.setObservations(JArray(JDouble, 1)(expression_data[0]), JArray(JDouble, 1)(expression_data[1]))
+java.lang.java.lang.ArrayIndexOutOfBoundsException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+real	0m0.790s
+user	0m0.011s
+sys	0m0.005s
+cat: 'outputs/*.csv': No such file or directory
+cat: write error: Broken pipe
+2023-10-04 23:33:43.794652
+2023-10-04 23:33:43.944403
+
+real	0m1.079s
+user	0m0.009s
+sys	0m0.007s
+cat: write error: Broken pipe
+2023-10-04 23:33:50.075861
+2023-10-04 23:33:50.122573
+
+real	0m0.913s
+user	0m0.010s
+sys	0m0.006s
+cat: write error: Broken pipe
+Traceback (most recent call last):
+  File "infodynamics.measures.continuous.TransferEntropyCommon.java", line -1, in infodynamics.measures.continuous.TransferEntropyCommon.setObservations
+Exception: Java Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/tenet/runTE.py", line 67, in <module>
+    teCalc.setObservations(JArray(JDouble, 1)(expression_data[0]), JArray(JDouble, 1)(expression_data[1]))
+java.lang.java.lang.ArrayIndexOutOfBoundsException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+real	0m0.782s
+user	0m0.008s
+sys	0m0.009s
+cat: 'outputs/*.csv': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_2/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_4/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_6/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_8/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_2/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_4/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_6/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_8/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_2/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_4/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_6/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_8/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_2/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_4/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_6/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_8/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_2/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_4/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_6/A.txt': No such file or directory
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+ERROR: LoadError: BoundsError: attempt to access data frame with 0 columns at index [2]
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/DataFrames/LteEl/src/other/index.jl:193 [inlined]
+ [2] getindex(df::DataFrame, row_inds::UnitRange{Int64}, col_ind::Int64)
+   @ DataFrames ~/.julia/packages/DataFrames/LteEl/src/dataframe/dataframe.jl:525
+ [3] top-level scope
+   @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+in expression starting at /home/stephenz/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:29
+a
+mv: cannot stat 'SCODE_D_8/A.txt': No such file or directory
+Tree method: RF
+K: sqrt
+Number of trees: 1000
+
+
+running single threaded jobs
+Gene 1/9...
+Gene 2/9...
+Gene 3/9...
+Gene 4/9...
+Gene 5/9...
+Gene 6/9...
+Gene 7/9...
+Gene 8/9...
+Gene 9/9...
+Elapsed time: 16.50 seconds
+Traceback (most recent call last):
+  File "/home/stephenz/stephenz/locaTE-paper/data/simulated/Synthetic_1000/scripts/run_static.py", line 108, in <module>
+    A_2 = pd.read_csv(fname + "/A_branch2_rep_%d.txt" % i, sep = "\t", index_col = False, header = None)
+  File "/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 950, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 605, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1442, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/pandas/io/parsers/readers.py", line 1735, in _make_engine
+    self.handles = get_handle(
+  File "/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/pandas/io/common.py", line 856, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BFStrange/dyn-BFStrange-1000-2/scode/SCODE_D_8/A_branch2_rep_1.txt'

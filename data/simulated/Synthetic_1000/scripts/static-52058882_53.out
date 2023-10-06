@@ -1,0 +1,119 @@
+  Activating project at `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-LL/dyn-LL-1000-2/pidc_env`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-LL/dyn-LL-1000-2/pidc_env/Project.toml`
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-LL/dyn-LL-1000-2/pidc_env/Manifest.toml`
+Getting nodes...
+Inferring network...
+cat: write error: Broken pipe
+2023-10-04 23:41:22.061985
+2023-10-04 23:41:24.983225
+2023-10-04 23:41:28.167402
+
+real	0m6.859s
+user	0m0.011s
+sys	0m0.006s
+cat: write error: Broken pipe
+2023-10-04 23:41:39.132378
+2023-10-04 23:41:41.767296
+2023-10-04 23:41:44.630897
+
+real	0m6.261s
+user	0m0.008s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:41:55.623859
+2023-10-04 23:41:58.101118
+2023-10-04 23:42:00.733993
+
+real	0m5.903s
+user	0m0.010s
+sys	0m0.007s
+cat: write error: Broken pipe
+2023-10-04 23:42:11.729438
+2023-10-04 23:42:14.300857
+2023-10-04 23:42:16.955054
+
+real	0m6.040s
+user	0m0.011s
+sys	0m0.006s
+cat: write error: Broken pipe
+2023-10-04 23:42:27.951529
+2023-10-04 23:42:30.899216
+2023-10-04 23:42:33.923085
+
+real	0m6.752s
+user	0m0.010s
+sys	0m0.007s
+cat: write error: Broken pipe
+2023-10-04 23:42:44.943870
+2023-10-04 23:42:49.895685
+2023-10-04 23:42:54.973523
+
+real	0m10.852s
+user	0m0.008s
+sys	0m0.008s
+cat: write error: Broken pipe
+2023-10-04 23:43:06.106842
+2023-10-04 23:43:13.374854
+2023-10-04 23:43:18.714006
+
+real	0m13.540s
+user	0m0.007s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:43:29.639110
+2023-10-04 23:43:30.779193
+2023-10-04 23:43:31.980486
+
+real	0m3.069s
+user	0m0.011s
+sys	0m0.005s
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+sh: line 1: matlab: command not found
+sh: line 1: matlab: command not found
+/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/Scribe-0.0.0-py3.9.egg/Scribe/causal_network.py:18: UserWarning:  WARNING: No expression data argument given. if you intend to load the data from a file, call the method 'read_expression_file'.
+  if expression==None: warnings.warn(" WARNING: No expression data argument given. if you intend to load the data from a file, call the method 'read_expression_file'.")
+/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/Scribe-0.0.0-py3.9.egg/Scribe/causal_network.py:298: FutureWarning: Could not cast to int64, falling back to object. This behavior is deprecated. In a future version, when a dtype is passed to 'DataFrame', either all columns will be cast to that dtype, or a TypeError will be raised.
+  max_rdi_delay = pd.DataFrame({node_id: [np.nan for i in self.node_ids] for node_id in self.node_ids}, index=self.node_ids,
+Tree method: RF
+K: sqrt
+Number of trees: 1000
+
+
+running single threaded jobs
+Gene 1/18...
+Gene 2/18...
+Gene 3/18...
+Gene 4/18...
+Gene 5/18...
+Gene 6/18...
+Gene 7/18...
+Gene 8/18...
+Gene 9/18...
+Gene 10/18...
+Gene 11/18...
+Gene 12/18...
+Gene 13/18...
+Gene 14/18...
+Gene 15/18...
+Gene 16/18...
+Gene 17/18...
+Gene 18/18...
+Elapsed time: 51.77 seconds
+Create causal_model successfully

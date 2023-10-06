@@ -1,0 +1,420 @@
+  Activating project at `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BF/dyn-BF-1000-7/pidc_env`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BF/dyn-BF-1000-7/pidc_env/Project.toml`
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-BF/dyn-BF-1000-7/pidc_env/Manifest.toml`
+Getting nodes...
+Inferring network...
+cat: write error: Broken pipe
+2023-10-04 23:20:31.810519
+2023-10-04 23:20:31.893181
+2023-10-04 23:20:31.963580
+
+real	0m0.879s
+user	0m0.007s
+sys	0m0.010s
+cat: write error: Broken pipe
+2023-10-04 23:20:37.900621
+2023-10-04 23:20:37.951955
+2023-10-04 23:20:37.993103
+
+real	0m0.847s
+user	0m0.008s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:20:43.991979
+2023-10-04 23:20:44.040606
+2023-10-04 23:20:44.080843
+
+real	0m0.914s
+user	0m0.005s
+sys	0m0.012s
+cat: write error: Broken pipe
+2023-10-04 23:20:50.023562
+2023-10-04 23:20:50.089132
+2023-10-04 23:20:50.150870
+
+real	0m0.877s
+user	0m0.008s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:20:56.102173
+2023-10-04 23:20:56.147673
+2023-10-04 23:20:56.181126
+
+real	0m0.847s
+user	0m0.010s
+sys	0m0.007s
+cat: write error: Broken pipe
+2023-10-04 23:21:02.091832
+2023-10-04 23:21:02.146523
+2023-10-04 23:21:02.179674
+
+real	0m0.831s
+user	0m0.008s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:21:08.113079
+2023-10-04 23:21:08.165159
+2023-10-04 23:21:08.224796
+
+real	0m0.853s
+user	0m0.010s
+sys	0m0.007s
+cat: write error: Broken pipe
+2023-10-04 23:21:14.171937
+2023-10-04 23:21:14.216930
+2023-10-04 23:21:14.258744
+
+real	0m0.850s
+user	0m0.011s
+sys	0m0.006s
+cat: write error: Broken pipe
+2023-10-04 23:21:20.202956
+2023-10-04 23:21:20.246292
+2023-10-04 23:21:20.279066
+
+real	0m0.841s
+user	0m0.008s
+sys	0m0.008s
+cat: write error: Broken pipe
+2023-10-04 23:21:26.217805
+2023-10-04 23:21:26.304917
+2023-10-04 23:21:26.378294
+
+real	0m0.923s
+user	0m0.008s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:21:32.354340
+2023-10-04 23:21:32.511725
+2023-10-04 23:21:32.566261
+
+real	0m1.003s
+user	0m0.010s
+sys	0m0.007s
+cat: write error: Broken pipe
+2023-10-04 23:21:38.531974
+2023-10-04 23:21:38.600997
+2023-10-04 23:21:38.677120
+
+real	0m0.941s
+user	0m0.010s
+sys	0m0.007s
+cat: write error: Broken pipe
+2023-10-04 23:21:44.695152
+2023-10-04 23:21:44.991505
+2023-10-04 23:21:45.197909
+
+real	0m1.329s
+user	0m0.007s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:21:51.122127
+2023-10-04 23:21:51.315625
+2023-10-04 23:21:51.493670
+
+real	0m1.119s
+user	0m0.010s
+sys	0m0.007s
+cat: write error: Broken pipe
+2023-10-04 23:21:57.462586
+2023-10-04 23:21:57.693088
+2023-10-04 23:21:57.975240
+
+real	0m1.336s
+user	0m0.007s
+sys	0m0.010s
+cat: write error: Broken pipe
+2023-10-04 23:22:03.948843
+2023-10-04 23:22:04.175974
+2023-10-04 23:22:04.401949
+
+real	0m1.197s
+user	0m0.011s
+sys	0m0.006s
+cat: write error: Broken pipe
+2023-10-04 23:22:10.302838
+2023-10-04 23:22:10.367970
+2023-10-04 23:22:10.417219
+
+real	0m0.853s
+user	0m0.009s
+sys	0m0.008s
+cat: write error: Broken pipe
+2023-10-04 23:22:16.436976
+2023-10-04 23:22:16.674903
+2023-10-04 23:22:16.731590
+
+real	0m1.121s
+user	0m0.012s
+sys	0m0.006s
+cat: write error: Broken pipe
+2023-10-04 23:22:22.755480
+2023-10-04 23:22:23.087843
+2023-10-04 23:22:23.419882
+
+real	0m1.526s
+user	0m0.011s
+sys	0m0.007s
+cat: write error: Broken pipe
+2023-10-04 23:22:29.431591
+2023-10-04 23:22:29.617748
+2023-10-04 23:22:29.841163
+
+real	0m1.199s
+user	0m0.008s
+sys	0m0.009s
+cat: write error: Broken pipe
+2023-10-04 23:22:35.822476
+2023-10-04 23:22:35.997802
+2023-10-04 23:22:36.185066
+
+real	0m1.171s
+user	0m0.010s
+sys	0m0.008s
+cat: write error: Broken pipe
+2023-10-04 23:22:42.185890
+2023-10-04 23:22:42.234749
+2023-10-04 23:22:42.268115
+
+real	0m0.867s
+user	0m0.011s
+sys	0m0.007s
+cat: write error: Broken pipe
+2023-10-04 23:22:48.259105
+2023-10-04 23:22:48.296128
+2023-10-04 23:22:48.313960
+
+real	0m0.865s
+user	0m0.007s
+sys	0m0.011s
+cat: write error: Broken pipe
+2023-10-04 23:22:54.293399
+2023-10-04 23:22:54.319375
+2023-10-04 23:22:54.337311
+
+real	0m0.833s
+user	0m0.009s
+sys	0m0.009s
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+sh: line 1: matlab: command not found
+sh: line 1: matlab: command not found
+/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/Scribe-0.0.0-py3.9.egg/Scribe/causal_network.py:18: UserWarning:  WARNING: No expression data argument given. if you intend to load the data from a file, call the method 'read_expression_file'.
+  if expression==None: warnings.warn(" WARNING: No expression data argument given. if you intend to load the data from a file, call the method 'read_expression_file'.")
+/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/Scribe-0.0.0-py3.9.egg/Scribe/causal_network.py:298: FutureWarning: Could not cast to int64, falling back to object. This behavior is deprecated. In a future version, when a dtype is passed to 'DataFrame', either all columns will be cast to that dtype, or a TypeError will be raised.
+  max_rdi_delay = pd.DataFrame({node_id: [np.nan for i in self.node_ids] for node_id in self.node_ids}, index=self.node_ids,
+Tree method: RF
+K: sqrt
+Number of trees: 1000
+
+
+running single threaded jobs
+Gene 1/7...
+Gene 2/7...
+Gene 3/7...
+Gene 4/7...
+Gene 5/7...
+Gene 6/7...
+Gene 7/7...
+Elapsed time: 13.13 seconds
+Create causal_model successfully

@@ -5,6 +5,11 @@ import numpy as np
 import scanpy as sc
 import os
 import glob
+import sys
+
+GENIE3_PATH="/home/stephenz/stephenz/locaTE-paper/tools/GENIE3/GENIE3_python"
+sys.path.append(GENIE3_PATH)
+import GENIE3
 
 try:
 	adata = ad.read_h5ad("anndata_dpt_groups_mapped.h5ad")
@@ -26,6 +31,14 @@ if is_bifurc:
 else:
 	TENET_SCRIPT="%s/run_tenet.sh" % SCRIPT_DIR
 	SCODE_SCRIPT="%s/run_SCODE.sh" % SCRIPT_DIR
+
+# write for GENIE3 
+DIR_COMPARISON = os.path.join(DIR, "genie3/")
+try:
+	os.mkdir(DIR_COMPARISON)
+except:
+	pass
+pd.DataFrame(GENIE3.GENIE3(adata.X), index = adata.var.index, columns = adata.var.index).to_csv(DIR_COMPARISON + "A.csv")
 
 # write for TENET
 DIR_COMPARISON = os.path.join(DIR, "tenet/")

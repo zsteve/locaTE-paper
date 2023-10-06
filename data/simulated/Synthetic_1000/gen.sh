@@ -7,16 +7,16 @@ branch=( ["dyn-BF"]=1 ["dyn-BFC"]=0 ["dyn-BFStrange"]=1 ["dyn-CY"]=0 ["dyn-LI"]=
 for i in $(ls); do 
 	for j in $(ls $i | grep -E "1000-([0-9]|10)$"); do
 		DIR="$(pwd)/$i/$j"
-		# echo "Preprocessing $DIR"
-		# python ../../../scripts/preprocess_boolode.py $DIR --nbranches ${branch[$i]}
+		echo "Preprocessing $DIR"
+		python ../../../scripts/preprocess_boolode.py $DIR --nbranches ${branch[$i]}
 		# cp scripts/run*.sh $DIR/ # copy all run scripts 
 		# cp scripts/params* $DIR/ # copy param sets
 		# sed -i "s~__DATAPATH__~$DIR~g" $DIR/run.sh
 		# sed -i "s~__DATAPATH__~$DIR~g" $DIR/run_cespgrn.sh
 		# sed -i "s~__DATAPATH__~$DIR~g" $DIR/run_undir.sh
-		echo "Submitting batch job"
+		# echo "Submitting batch job"
 		# sbatch $DIR/run.sh
-		sbatch $DIR/run_cespgrn.sh
+		# sbatch $DIR/run_cespgrn.sh
 		# sbatch $DIR/run_undir.sh
 		# Cleanup
 		# cd $DIR

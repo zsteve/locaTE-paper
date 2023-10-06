@@ -29,7 +29,7 @@ function process_dataset(dir)
                 "J_symm_mat" => J_symm_mat)
 end
 
-function load_job_data(dir, Ng; locate_prefix = "locate", cespgrn_prefix = "cespgrn", locate_what = "G_cdf", cespgrn_what = "G")
+function load_job_data(dir, Ng; locate_prefix = "locate", cespgrn_prefix = "cespgrn", locate_what = "G_cdf", cespgrn_what = "G", static = false)
     files = Dict("locaTE_velo_dot" => glob(string(dir, "/$(locate_prefix)_output*")), 
                 "locaTE_velo_cos"  => glob(string(dir, "/$(locate_prefix)_output*")), 
                 "locaTE_velo_corr" => glob(string(dir, "/$(locate_prefix)_output*")),
@@ -39,7 +39,7 @@ function load_job_data(dir, Ng; locate_prefix = "locate", cespgrn_prefix = "cesp
                 "locaTE_pba"       => glob(string(dir, "/$(locate_prefix)_output*")),
                  "cespgrn"        => glob(string(dir, "/$(cespgrn_prefix)_output*")))
     params = Dict(k => map(x -> map(x -> parse(Float64, x), split(x, "_")[[end-2, end-1, end]]), v) for (k, v) in files)
-    all_nans = fill(NaN, Nc, Ng*Ng)
+    all_nans = if static fill(NaN, Ng, Ng) else fill(NaN, Nc, Ng*Ng) end
     outputs = Dict( "locaTE_velo_dot"  => map(x -> try npzread(string(x, "/$(locate_what)_velo_dot.npy")) catch _ all_nans end, files["locaTE_velo_dot"]),
                    "locaTE_velo_cos"  => map(x -> try npzread(string(x, "/$(locate_what)_velo_cos.npy")) catch _ all_nans end, files["locaTE_velo_cos"]),
                    "locaTE_velo_corr" => map(x -> try npzread(string(x, "/$(locate_what)_velo_corr.npy")) catch _ all_nans end, files["locaTE_velo_corr"]),
@@ -120,7 +120,7 @@ end
 function process_scribe(path, J)
     G_scribe = Array(npzread(path));
     G_scribe[diagind(G_scribe)] .= 0
-    G_scribe = locaTE.CLR(G_scribe);
+    # G_scribe = locaTE.CLR(G_scribe);
     p, r = collect(eachcol(prec_rec_rate(J, G_scribe, 512)))
     G_scribe, aupr(p, r)
 end
@@ -149,4 +149,11 @@ function process_sincerities(path, J)
     # compute AUPR w.r.t ground truth
     p, r = collect(eachcol(prec_rec_rate(J, G_sincerities, 512)))
     G_sincerities, aupr(p, r)
+end
+
+function process_genie3(path, J)
+    G_genie3 = Array(CSV.read(path, DataFrame)[:, 2:end]);
+    # compute AUPR w.r.t ground truth
+    p, r = collect(eachcol(prec_rec_rate(J, G_genie3, 512)))
+    G_genie3, aupr(p, r)
 end

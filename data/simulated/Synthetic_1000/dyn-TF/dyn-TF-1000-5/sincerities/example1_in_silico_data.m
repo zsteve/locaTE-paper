@@ -1,1 +1,0 @@
-/data/gpfs/projects/punim0638/stephenz/locaTE-paper/tools//SINCERITIES/matlab/example1_in_silico_data.m

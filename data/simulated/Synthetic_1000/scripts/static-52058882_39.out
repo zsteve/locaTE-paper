@@ -1,0 +1,101 @@
+  Activating project at `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-CY/dyn-CY-1000-9/pidc_env`
+    Updating registry at `~/.julia/registries/General.toml`
+   Resolving package versions...
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-CY/dyn-CY-1000-9/pidc_env/Project.toml`
+  No Changes to `/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/Synthetic_1000/dyn-CY/dyn-CY-1000-9/pidc_env/Manifest.toml`
+Getting nodes...
+Inferring network...
+cat: write error: Broken pipe
+2023-10-04 23:38:11.701224
+2023-10-04 23:38:11.946910
+2023-10-04 23:38:12.178569
+
+real	0m1.238s
+user	0m0.009s
+sys	0m0.008s
+cat: write error: Broken pipe
+2023-10-04 23:38:23.110245
+2023-10-04 23:38:23.280655
+2023-10-04 23:38:23.441751
+
+real	0m1.084s
+user	0m0.008s
+sys	0m0.008s
+2023-10-04 23:38:34.362765
+2023-10-04 23:38:34.493884
+2023-10-04 23:38:34.613286
+
+real	0m0.996s
+user	0m0.007s
+sys	0m0.010s
+2023-10-04 23:38:45.529660
+2023-10-04 23:38:45.659886
+2023-10-04 23:38:45.774806
+
+real	0m0.992s
+user	0m0.008s
+sys	0m0.008s
+2023-10-04 23:38:56.720128
+2023-10-04 23:38:56.886695
+2023-10-04 23:38:57.038677
+
+real	0m1.086s
+user	0m0.007s
+sys	0m0.010s
+2023-10-04 23:39:08.032313
+2023-10-04 23:39:08.434498
+2023-10-04 23:39:08.808234
+
+real	0m1.596s
+user	0m0.007s
+sys	0m0.010s
+2023-10-04 23:39:19.981272
+2023-10-04 23:39:21.042459
+2023-10-04 23:39:21.988298
+
+real	0m2.996s
+user	0m0.009s
+sys	0m0.008s
+2023-10-04 23:39:32.915715
+2023-10-04 23:39:33.020385
+2023-10-04 23:39:33.121310
+
+real	0m0.955s
+user	0m0.008s
+sys	0m0.008s
+mkdir: cannot create directory ‘SCODE_D_2’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_4’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_6’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+mkdir: cannot create directory ‘SCODE_D_8’: File exists
+┌ Warning: Assignment to `WZ` in soft scope is ambiguous because a global variable by the same name exists: `WZ` will be treated as a new local. Disambiguate by using `local WZ` to suppress this warning or `global WZ` to assign to the existing global variable.
+└ @ ~/stephenz/locaTE-paper/tools/SCODE/SCODE.jl:69
+a
+sh: line 1: matlab: command not found
+sh: line 1: matlab: command not found
+/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/Scribe-0.0.0-py3.9.egg/Scribe/causal_network.py:18: UserWarning:  WARNING: No expression data argument given. if you intend to load the data from a file, call the method 'read_expression_file'.
+  if expression==None: warnings.warn(" WARNING: No expression data argument given. if you intend to load the data from a file, call the method 'read_expression_file'.")
+/data/gpfs/projects/punim0638/stephenz/envs/py39/lib/python3.9/site-packages/Scribe-0.0.0-py3.9.egg/Scribe/causal_network.py:298: FutureWarning: Could not cast to int64, falling back to object. This behavior is deprecated. In a future version, when a dtype is passed to 'DataFrame', either all columns will be cast to that dtype, or a TypeError will be raised.
+  max_rdi_delay = pd.DataFrame({node_id: [np.nan for i in self.node_ids] for node_id in self.node_ids}, index=self.node_ids,
+Tree method: RF
+K: sqrt
+Number of trees: 1000
+
+
+running single threaded jobs
+Gene 1/6...
+Gene 2/6...
+Gene 3/6...
+Gene 4/6...
+Gene 5/6...
+Gene 6/6...
+Elapsed time: 10.79 seconds
+Create causal_model successfully
