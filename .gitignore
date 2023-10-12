@@ -1,12 +1,9 @@
 # Data
-data/simulated/Synthetic_1000/*.out
-data/simulated/Synthetic_1000_noise/*.out
-data/simulated/Synthetic_1000_noise/dyn*/dyn-*_noise_*_dropout_*
+data/simulated/Synthetic_1000/
+data/simulated/Synthetic_1000_noise/
 data/simulated/Synthetic_10k
-data/simulated/Synthetic_2000/*.out
-data/simulated/Synthetic_2000/*/simulations/*.csv
-data/simulated/Synthetic_2000_noise/*.out
-data/simulated/Synthetic_2000_noise/dyn*/dyn-*_noise_*_dropout_*
+data/simulated/Synthetic_2000/
+data/simulated/Synthetic_2000_noise/
 locate_output_*
 cespgrn_output_*
 examples/cellcycle_metabolic/data/*
