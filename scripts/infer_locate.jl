@@ -24,6 +24,7 @@ s = ArgParseSettings()
     "--P"
         help = "path to transition matrix"
         arg_type = String
+        default = ""
     "--C"
         help = "path to cost matrix"
         arg_type = String
@@ -51,6 +52,8 @@ s = ArgParseSettings()
     "--suffix"
         arg_type = String
         default = ""
+    "--undir"
+        action = :store_true
 end
 
 args = parse_args(s)
@@ -78,9 +81,10 @@ for (i, j) in enumerate(idxs)
 end
 L = sparse(normalized_laplacian(max.(A, A'), Float64));
 
-P = npzread(args["P"])
+P = if args["undir"] R else npzread(args["P"]) end
 P_sp = sparse(P^args["k"])
-Q = to_backward_kernel(P);
+# Q = if args["undir"] I(size(P, 1)) else to_backward_kernel(P) end;
+Q = to_backward_kernel(P)
 QT_sp = sparse((Q^args["k"])')
 # directed inference
 @info "Directed inference"
@@ -94,8 +98,11 @@ w ./= mean(w)
 @info "Applying CLR"
 TE_clr = apply_wclr(TE, size(X, 2))
 TE_clr[isnan.(TE_clr)] .= 0
-# @info "Denoising"
+@info "Denoising"
 G = fitsp(TE_clr, L; λ1 = args["lambda1"], λ2 = args["lambda2"], maxiter = Nq)
+
+# symmetrize if undirected
+G = if args["undir"] locaTE.symm_row(G, size(X, 2)) else G end
 
 # CDF normalization
 A = reshape(maximum(G; dims = 1), size(X, 2), size(X, 2))

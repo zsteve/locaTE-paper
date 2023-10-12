@@ -4,8 +4,8 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=4G
 #SBATCH --partition=mig
-#SBATCH --time=0-02:00:00
-#SBATCH --array=1-1
+#SBATCH --time=0-01:00:00
+#SBATCH --array=1-125
 #SBATCH --output=%x-%A_%a.out
 
 srcpath="/home/stephenz/stephenz/locaTE-paper/scripts"
@@ -22,9 +22,11 @@ suffix=$k"_"$lamda1"_"$lamda2
 
 JULIA=julia
 mkdir $datapath/locate_output"_"$suffix
-for i in $(ls -d "$datapath/P_"*".npy"); do
-	ptype=$(echo $i | awk -F'P_' '{ print $2 }' | cut -d'.' -f 1)
-	echo Transition matrix $ptype
-	JULIA_NUM_THREADS=1 $JULIA $srcpath/infer_locate.jl --X $datapath/X.npy --X_pca $datapath/X_pca.npy --P $i --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix $ptype
-done
+# for i in $(ls -d "$datapath/P_"*".npy"); do
+# 	ptype=$(echo $i | awk -F'P_' '{ print $2 }' | cut -d'.' -f 1)
+# 	echo Transition matrix $ptype
+# 	JULIA_NUM_THREADS=1 $JULIA $srcpath/infer_locate.jl --X $datapath/X.npy --X_pca $datapath/X_pca.npy --P $i --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix $ptype
+# done
 
+# undirected
+JULIA_NUM_THREADS=1 $JULIA $srcpath/infer_locate.jl --undir --X $datapath/X.npy --X_pca $datapath/X_pca.npy --C $datapath/C.npy --k $k --lambda1 $lamda1 --lambda2 $lamda2 --outdir $datapath/locate_output"_"$suffix/ --suffix undir
