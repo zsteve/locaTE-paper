@@ -6,10 +6,15 @@ import scanpy as sc
 import os
 import glob
 import sys
+import argparse
 
 GENIE3_PATH="/home/stephenz/stephenz/locaTE-paper/tools/GENIE3/GENIE3_python"
 sys.path.append(GENIE3_PATH)
 import GENIE3
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--nobranching', type = bool, default = False)
+args = parser.parse_args()
 
 try:
 	adata = ad.read_h5ad("anndata_dpt_groups_mapped.h5ad")
@@ -20,7 +25,7 @@ dpt=adata.obs.dpt_pseudotime
 adata = adata[np.argsort(dpt), :]
 dpt = np.sort(dpt)
 
-is_bifurc = ("dpt_groups" in adata.obs.columns)
+is_bifurc = False if args.nobranching else ("dpt_groups" in adata.obs.columns) 
 
 DIR=os.getcwd()
 SCRIPT_DIR="/data/gpfs/projects/punim0638/stephenz/locaTE-paper/data/simulated/scripts/"

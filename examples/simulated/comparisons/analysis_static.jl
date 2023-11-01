@@ -37,7 +37,8 @@ PLT_CELL = 500
 FIG_DIR=args["fig_dir"]
 DATA_DIR=args["data_dir"]
 
-dataset_dirs = glob([DATA_DIR, r"dyn.*-*-[0-9]*$", ])
+# dataset_dirs = glob([DATA_DIR, r"dyn.*-*-[0-9]*$", ])
+dataset_dirs = glob([DATA_DIR, r".*-*-[0-9]*$", ])
 sim = split(split(dataset_dirs[1], r"-1$")[1], "/")[end]
 datasets = tmap(process_dataset, dataset_dirs)
 Ng = size(first(datasets)["X"], 2)
@@ -68,6 +69,10 @@ outfiles_genie3 = map(x -> glob(joinpath(x, "genie3/A.csv")), dataset_dirs)
 outfiles_grisli = map(x -> glob(joinpath(x, "grisli/A_grisli_L_*.csv")), dataset_dirs)
 
 J_static = map(x -> mean(x["J"]; dims = 1)[1, :, :] .> 0.05, datasets);
+# set all static networks diag to zero
+# for x in J_static
+#     x[diagind(x)] .= 0
+# end
 J_symm_static = map(x -> mean(x["J_symm"]; dims = 1)[1, :, :] .> 0.05, datasets);
 baseline_static = mean.(J_static);
 baseline_symm_static = mean.(J_symm_static); 

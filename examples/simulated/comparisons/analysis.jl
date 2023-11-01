@@ -36,8 +36,8 @@ PLT_CELL = 500
 # FIG_DIR=args["fig_dir"]
 FIG_DIR="./"
 # DATA_DIR=args["data_dir"]
-DATA_DIR="../../../data/simulated/Synthetic_1000/dyn-SW/"
-# DATA_DIR="../../../data/simulated/Synthetic_1000/dyn-BFStrange/"
+# DATA_DIR="../../../data/simulated/Synthetic_1000/dyn-SW/"
+DATA_DIR="../../../data/simulated/Synthetic_1000/dyn-BFStrange/"
 
 dataset_dirs = glob([DATA_DIR, r"dyn.*-*-[0-9]*$", ])
 sim = split(split(dataset_dirs[1], r"-1$")[1], "/")[end]

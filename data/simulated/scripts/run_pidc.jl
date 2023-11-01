@@ -11,6 +11,8 @@ using NNlib
 
 idx = Colon()
 X = npzread("X.npy")[:, idx]
+# added for fair comparison to locaTE
+X = relu.(X .- 10^(-0.5))
 try
     global genes = CSV.read("genes.txt", Array)[:, 2][idx];
 catch e

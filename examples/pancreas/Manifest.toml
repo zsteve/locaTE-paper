@@ -843,7 +843,7 @@ version = "5.1.1+0"
 deps = ["CUDA", "Discretizers", "Distributions", "Documenter", "EvalMetrics", "GraphSignals", "Graphs", "InformationMeasures", "LinearAlgebra", "LogExpFunctions", "MultivariateStats", "NMF", "NNlib", "NearestNeighbors", "ProgressBars", "ProgressMeter", "PyCall", "SparseArrays", "StatsBase", "TSVD", "TensorToolbox"]
 path = "/home/stephenz/stephenz/locaTE.jl"
 uuid = "d47a2e43-82e6-47ba-a340-eddb77145d33"
-version = "0.3.5"
+version = "0.3.6"
 
 [[deps.nghttp2_jll]]
 deps = ["Artifacts", "Libdl"]

@@ -1,10 +1,25 @@
 #!/bin/bash
-lamda1vals=(1 2.5 5 10 25)
-lamda2vals=(0 0.001 0.005 0.01 0.025)
-for k in 1 2 3 4 5; do 
-	for lamda1 in ${lamda1vals[@]}; do
-		for lamda2 in ${lamda2vals[@]}; do
-			echo "$k $lamda1 $lamda2"
-		done
-	done
-done
+#SBATCH --job-name="static"
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=2G
+#SBATCH --partition=mig
+#SBATCH --time=0-01:00:00
+#SBATCH --array=1-31
+#SBATCH --output=%x-%A_%a.out
+
+path=$(pwd)
+datapath=`sed -n "${SLURM_ARRAY_TASK_ID} p" paths`
+
+JULIA="/home/stephenz/julia-1.8.4/bin/julia"
+
+# run julia first due to segfault issue
+cd $datapath
+$JULIA $path/run_pidc.jl --project=pidc_env
+
+source ~/.bashrc && source ~/.profile
+# run rest 
+# ml load MATLAB
+conda activate py39
+python $path/run_static.py
+

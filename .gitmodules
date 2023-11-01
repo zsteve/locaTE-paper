@@ -37,3 +37,6 @@
 [submodule "data/tools/SINCERITIES"]
 	path = data/tools/SINCERITIES
 	url = https://github.com/zsteve/SINCERITIES
+[submodule "tools/SERGIO"]
+	path = tools/SERGIO
+	url = https://github.com/PayamDiba/SERGIO

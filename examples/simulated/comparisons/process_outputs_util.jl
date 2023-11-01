@@ -5,7 +5,11 @@ sim_name = Dict("dyn-SW" => "Switch",
                 "dyn-BF" => "Bifurcating simple",
                 "dyn-CY" => "Cyclic",
                 "dyn-TF" => "Trifurcating",
-                "dyn-BFC" => "Bifurcating cycle")
+                "dyn-BFC" => "Bifurcating cycle", 
+                "mCAD" => "mCAD",
+                "HSC" => "HSC", 
+                "VSC" => "VSC", 
+                "GSD" => "GSD")
 
 rm_diag(A) = A - Diagonal(diag(A))
 
