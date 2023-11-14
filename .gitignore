@@ -4,6 +4,8 @@ data/simulated/Synthetic_1000_noise/
 data/simulated/Synthetic_10k
 data/simulated/Synthetic_2000/
 data/simulated/Synthetic_2000_noise/
+data/simulated/Curated/
+data/simulated/Curated_noise/
 locate_output_*
 cespgrn_output_*
 examples/cellcycle_metabolic/data/*
